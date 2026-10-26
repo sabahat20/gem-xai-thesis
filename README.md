@@ -1,7 +1,7 @@
 # GEM-XAI: Generative and Explainable Multimodal AI for Financial Market Regime Classification
 
 Code, data and results for the MSc thesis in Machine Learning and Artificial Intelligence at
-Liverpool John Moores University (LJMU), by **Sabahat Zartar Jamil**, supervised by **Dr. K. Lokeshwaran**.
+Liverpool John Moores University (LJMU), by **Sabahat Zartar Jamil**, supervised by **Channabasava Chola**.
 
 GEM-XAI forecasts the next-day market regime (**Bull**, **Bear** or **HighVol**) of the SPDR S&P 500 ETF (SPY),
 2010 – June 2025. It fuses three modalities:
