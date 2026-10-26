@@ -1,0 +1,12 @@
+,,count
+Bear,"recent (days 21-30) candles, lower price range",28
+Bear,"recent (days 21-30) candles, upper price range",22
+Bear,"early-window (days 1-10) candles, lower price range",1
+Bull,"recent (days 21-30) candles, upper price range",112
+Bull,"recent (days 21-30) candles, lower price range",15
+Bull,"early-window (days 1-10) candles, upper price range",12
+Bull,"early-window (days 1-10) candles, lower price range",1
+HighVol,"recent (days 21-30) candles, upper price range",124
+HighVol,"recent (days 21-30) candles, lower price range",30
+HighVol,"early-window (days 1-10) candles, upper price range",20
+HighVol,"early-window (days 1-10) candles, lower price range",8

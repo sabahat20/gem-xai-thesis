@@ -1,0 +1,273 @@
+2026-10-25 18:00:16,090 | INFO | Downloaded 4148 rows for SPY
+2026-10-25 18:00:19,438 | INFO | HMM fitted, logL=-5044.8; state means (ret, rv21): [[0.0007, 0.0862], [0.0007, 0.1529], [-0.0005, 0.2837]]
+2026-10-25 18:00:20,577 | INFO | Filtered vs Viterbi label agreement: 94.3%
+2026-10-25 18:00:32,614 | INFO | Rendered 3896 chart images (raster)
+2026-10-25 18:02:10,782 | INFO | WGAN-GP class 1: {'n_real': 507, 'n_synthetic': 387, 'lambda_gp': 20.0, 'mmd_real_vs_synth': 0.006415963172912598, 'mmd_real_half_vs_half': 0.04691213369369507, 'disc_acc_logreg': 0.582890308735307, 'disc_acc_gboost': 0.8037653026386382, 'passes_disc_test': False}
+2026-10-25 18:02:10,783 | WARNING | Class 1 synthetic data failed the discriminator test - not used (focal loss only).
+Downloading: "https://download.pytorch.org/models/resnet18-f37072fd.pth" to /root/.cache/torch/hub/checkpoints/resnet18-f37072fd.pth
+  0%|          | 0.00/44.7M [00:00<?, ?B/s] 35%|███▍      | 15.6M/44.7M [00:00<00:00, 163MB/s] 76%|███████▌  | 33.8M/44.7M [00:00<00:00, 179MB/s]100%|██████████| 44.7M/44.7M [00:00<00:00, 185MB/s]
+2026-10-25 18:14:08,337 | INFO | Optuna best {'lr': 0.0024611689381084175, 'dropout': 0.21186111716536166, 'modality_dropout': 0.016144358356256553} (val AUC 0.9898)
+2026-10-25 18:14:09,943 | INFO | [num] epoch 00 loss 0.1299 val macro-AUC 0.9586
+2026-10-25 18:14:10,173 | INFO | [num] epoch 01 loss 0.0793 val macro-AUC 0.9650
+2026-10-25 18:14:10,427 | INFO | [num] epoch 02 loss 0.0590 val macro-AUC 0.9763
+2026-10-25 18:14:10,679 | INFO | [num] epoch 03 loss 0.0526 val macro-AUC 0.9721
+2026-10-25 18:14:10,922 | INFO | [num] epoch 04 loss 0.0537 val macro-AUC 0.9801
+2026-10-25 18:14:11,154 | INFO | [num] epoch 05 loss 0.0445 val macro-AUC 0.9708
+2026-10-25 18:14:11,406 | INFO | [num] epoch 06 loss 0.0446 val macro-AUC 0.9781
+2026-10-25 18:14:11,651 | INFO | [num] epoch 07 loss 0.0364 val macro-AUC 0.9720
+2026-10-25 18:14:11,896 | INFO | [num] epoch 08 loss 0.0370 val macro-AUC 0.9765
+2026-10-25 18:14:12,139 | INFO | [num] epoch 09 loss 0.0382 val macro-AUC 0.9802
+2026-10-25 18:14:12,400 | INFO | [num] epoch 10 loss 0.0307 val macro-AUC 0.9806
+2026-10-25 18:14:12,648 | INFO | [num] epoch 11 loss 0.0369 val macro-AUC 0.9856
+2026-10-25 18:14:12,896 | INFO | [num] epoch 12 loss 0.0358 val macro-AUC 0.9839
+2026-10-25 18:14:13,154 | INFO | [num] epoch 13 loss 0.0338 val macro-AUC 0.9704
+2026-10-25 18:14:13,416 | INFO | [num] epoch 14 loss 0.0358 val macro-AUC 0.9793
+2026-10-25 18:14:13,667 | INFO | [num] epoch 15 loss 0.0320 val macro-AUC 0.9813
+2026-10-25 18:14:13,922 | INFO | [num] epoch 16 loss 0.0311 val macro-AUC 0.9808
+2026-10-25 18:14:14,176 | INFO | [num] epoch 17 loss 0.0345 val macro-AUC 0.9802
+2026-10-25 18:14:14,427 | INFO | [num] epoch 18 loss 0.0297 val macro-AUC 0.9790
+2026-10-25 18:14:14,678 | INFO | [num] epoch 19 loss 0.0312 val macro-AUC 0.9787
+2026-10-25 18:14:14,688 | INFO | MLP (indicators only): best val AUC 0.9856
+2026-10-25 18:14:14,936 | INFO | [text] epoch 00 loss 0.4077 val macro-AUC 0.5020
+2026-10-25 18:14:15,154 | INFO | [text] epoch 01 loss 0.4000 val macro-AUC 0.4913
+2026-10-25 18:14:15,362 | INFO | [text] epoch 02 loss 0.3980 val macro-AUC 0.5161
+2026-10-25 18:14:15,583 | INFO | [text] epoch 03 loss 0.3979 val macro-AUC 0.5304
+2026-10-25 18:14:15,791 | INFO | [text] epoch 04 loss 0.3976 val macro-AUC 0.4923
+2026-10-25 18:14:16,014 | INFO | [text] epoch 05 loss 0.3958 val macro-AUC 0.5196
+2026-10-25 18:14:16,238 | INFO | [text] epoch 06 loss 0.3948 val macro-AUC 0.5077
+2026-10-25 18:14:16,446 | INFO | [text] epoch 07 loss 0.3947 val macro-AUC 0.5086
+2026-10-25 18:14:16,674 | INFO | [text] epoch 08 loss 0.3964 val macro-AUC 0.5143
+2026-10-25 18:14:16,889 | INFO | [text] epoch 09 loss 0.3942 val macro-AUC 0.5253
+2026-10-25 18:14:17,106 | INFO | [text] epoch 10 loss 0.3941 val macro-AUC 0.5293
+2026-10-25 18:14:17,364 | INFO | [text] epoch 11 loss 0.3939 val macro-AUC 0.5148
+2026-10-25 18:14:17,375 | INFO | FinBERT sentiment only: best val AUC 0.5304
+2026-10-25 18:14:18,782 | INFO | [img] epoch 00 loss 0.2514 val macro-AUC 0.6900
+2026-10-25 18:14:19,903 | INFO | [img] epoch 01 loss 0.1334 val macro-AUC 0.6550
+2026-10-25 18:14:21,015 | INFO | [img] epoch 02 loss 0.0882 val macro-AUC 0.6675
+2026-10-25 18:14:22,140 | INFO | [img] epoch 03 loss 0.0508 val macro-AUC 0.6313
+2026-10-25 18:14:23,255 | INFO | [img] epoch 04 loss 0.0643 val macro-AUC 0.5362
+2026-10-25 18:14:24,382 | INFO | [img] epoch 05 loss 0.0441 val macro-AUC 0.6232
+2026-10-25 18:14:25,507 | INFO | [img] epoch 06 loss 0.0422 val macro-AUC 0.6221
+2026-10-25 18:14:26,636 | INFO | [img] epoch 07 loss 0.0300 val macro-AUC 0.5958
+2026-10-25 18:14:27,782 | INFO | [img] epoch 08 loss 0.0127 val macro-AUC 0.5600
+2026-10-25 18:14:27,835 | INFO | ResNet-18 chart only: best val AUC 0.6900
+2026-10-25 18:14:28,139 | INFO | [num+text] epoch 00 loss 0.1485 val macro-AUC 0.9589
+2026-10-25 18:14:28,434 | INFO | [num+text] epoch 01 loss 0.0759 val macro-AUC 0.9653
+2026-10-25 18:14:28,713 | INFO | [num+text] epoch 02 loss 0.0706 val macro-AUC 0.9856
+2026-10-25 18:14:29,016 | INFO | [num+text] epoch 03 loss 0.0568 val macro-AUC 0.9766
+2026-10-25 18:14:29,290 | INFO | [num+text] epoch 04 loss 0.0539 val macro-AUC 0.9753
+2026-10-25 18:14:29,572 | INFO | [num+text] epoch 05 loss 0.0480 val macro-AUC 0.9789
+2026-10-25 18:14:29,851 | INFO | [num+text] epoch 06 loss 0.0578 val macro-AUC 0.9848
+2026-10-25 18:14:30,146 | INFO | [num+text] epoch 07 loss 0.0457 val macro-AUC 0.9728
+2026-10-25 18:14:30,430 | INFO | [num+text] epoch 08 loss 0.0432 val macro-AUC 0.9788
+2026-10-25 18:14:30,685 | INFO | [num+text] epoch 09 loss 0.0472 val macro-AUC 0.9802
+2026-10-25 18:14:30,965 | INFO | [num+text] epoch 10 loss 0.0464 val macro-AUC 0.9773
+2026-10-25 18:14:30,976 | INFO | Indicators + Sentiment: best val AUC 0.9856
+2026-10-25 18:14:32,494 | INFO | [num+img] epoch 00 loss 0.1558 val macro-AUC 0.9579
+2026-10-25 18:14:33,726 | INFO | [num+img] epoch 01 loss 0.0745 val macro-AUC 0.9529
+2026-10-25 18:14:34,946 | INFO | [num+img] epoch 02 loss 0.0616 val macro-AUC 0.9842
+2026-10-25 18:14:36,182 | INFO | [num+img] epoch 03 loss 0.0546 val macro-AUC 0.9743
+2026-10-25 18:14:37,409 | INFO | [num+img] epoch 04 loss 0.0442 val macro-AUC 0.9742
+2026-10-25 18:14:38,664 | INFO | [num+img] epoch 05 loss 0.0517 val macro-AUC 0.9849
+2026-10-25 18:14:39,906 | INFO | [num+img] epoch 06 loss 0.0494 val macro-AUC 0.9852
+2026-10-25 18:14:41,150 | INFO | [num+img] epoch 07 loss 0.0464 val macro-AUC 0.9804
+2026-10-25 18:14:42,383 | INFO | [num+img] epoch 08 loss 0.0418 val macro-AUC 0.9692
+2026-10-25 18:14:43,623 | INFO | [num+img] epoch 09 loss 0.0375 val macro-AUC 0.9668
+2026-10-25 18:14:44,867 | INFO | [num+img] epoch 10 loss 0.0307 val macro-AUC 0.9561
+2026-10-25 18:14:46,106 | INFO | [num+img] epoch 11 loss 0.0346 val macro-AUC 0.9638
+2026-10-25 18:14:47,349 | INFO | [num+img] epoch 12 loss 0.0266 val macro-AUC 0.9727
+2026-10-25 18:14:48,612 | INFO | [num+img] epoch 13 loss 0.0310 val macro-AUC 0.9543
+2026-10-25 18:14:49,848 | INFO | [num+img] epoch 14 loss 0.0292 val macro-AUC 0.9677
+2026-10-25 18:14:49,900 | INFO | Indicators + Chart: best val AUC 0.9852
+2026-10-25 18:14:51,377 | INFO | [num+text+img] epoch 00 loss 0.1569 val macro-AUC 0.9534
+2026-10-25 18:14:52,651 | INFO | [num+text+img] epoch 01 loss 0.0791 val macro-AUC 0.9517
+2026-10-25 18:14:53,907 | INFO | [num+text+img] epoch 02 loss 0.0730 val macro-AUC 0.9644
+2026-10-25 18:14:55,170 | INFO | [num+text+img] epoch 03 loss 0.0624 val macro-AUC 0.9734
+2026-10-25 18:14:56,430 | INFO | [num+text+img] epoch 04 loss 0.0559 val macro-AUC 0.9785
+2026-10-25 18:14:57,682 | INFO | [num+text+img] epoch 05 loss 0.0502 val macro-AUC 0.9799
+2026-10-25 18:14:58,974 | INFO | [num+text+img] epoch 06 loss 0.0511 val macro-AUC 0.9783
+2026-10-25 18:15:00,222 | INFO | [num+text+img] epoch 07 loss 0.0526 val macro-AUC 0.9818
+2026-10-25 18:15:01,489 | INFO | [num+text+img] epoch 08 loss 0.0432 val macro-AUC 0.9834
+2026-10-25 18:15:02,744 | INFO | [num+text+img] epoch 09 loss 0.0452 val macro-AUC 0.9780
+2026-10-25 18:15:03,990 | INFO | [num+text+img] epoch 10 loss 0.0486 val macro-AUC 0.9819
+2026-10-25 18:15:05,238 | INFO | [num+text+img] epoch 11 loss 0.0420 val macro-AUC 0.9844
+2026-10-25 18:15:06,486 | INFO | [num+text+img] epoch 12 loss 0.0439 val macro-AUC 0.9748
+2026-10-25 18:15:07,723 | INFO | [num+text+img] epoch 13 loss 0.0398 val macro-AUC 0.9810
+2026-10-25 18:15:08,978 | INFO | [num+text+img] epoch 14 loss 0.0352 val macro-AUC 0.9859
+2026-10-25 18:15:10,226 | INFO | [num+text+img] epoch 15 loss 0.0353 val macro-AUC 0.9840
+2026-10-25 18:15:11,467 | INFO | [num+text+img] epoch 16 loss 0.0362 val macro-AUC 0.9809
+2026-10-25 18:15:12,705 | INFO | [num+text+img] epoch 17 loss 0.0344 val macro-AUC 0.9822
+2026-10-25 18:15:13,948 | INFO | [num+text+img] epoch 18 loss 0.0327 val macro-AUC 0.9641
+2026-10-25 18:15:15,189 | INFO | [num+text+img] epoch 19 loss 0.0337 val macro-AUC 0.9816
+2026-10-25 18:15:16,423 | INFO | [num+text+img] epoch 20 loss 0.0338 val macro-AUC 0.9775
+2026-10-25 18:15:17,661 | INFO | [num+text+img] epoch 21 loss 0.0364 val macro-AUC 0.9828
+2026-10-25 18:15:18,917 | INFO | [num+text+img] epoch 22 loss 0.0297 val macro-AUC 0.9813
+2026-10-25 18:15:18,968 | INFO | Multimodal (no augmentation): best val AUC 0.9859
+2026-10-25 18:15:20,341 | INFO | [num+text+img] epoch 00 loss 0.1391 val macro-AUC 0.9564
+2026-10-25 18:15:21,505 | INFO | [num+text+img] epoch 01 loss 0.0635 val macro-AUC 0.9662
+2026-10-25 18:15:22,668 | INFO | [num+text+img] epoch 02 loss 0.0562 val macro-AUC 0.9615
+2026-10-25 18:15:23,829 | INFO | [num+text+img] epoch 03 loss 0.0453 val macro-AUC 0.9427
+2026-10-25 18:15:24,977 | INFO | [num+text+img] epoch 04 loss 0.0417 val macro-AUC 0.9224
+2026-10-25 18:15:26,127 | INFO | [num+text+img] epoch 05 loss 0.0373 val macro-AUC 0.9130
+2026-10-25 18:15:27,284 | INFO | [num+text+img] epoch 06 loss 0.0416 val macro-AUC 0.9694
+2026-10-25 18:15:28,459 | INFO | [num+text+img] epoch 07 loss 0.0330 val macro-AUC 0.9751
+2026-10-25 18:15:29,620 | INFO | [num+text+img] epoch 08 loss 0.0313 val macro-AUC 0.9637
+2026-10-25 18:15:30,763 | INFO | [num+text+img] epoch 09 loss 0.0276 val macro-AUC 0.9644
+2026-10-25 18:15:31,915 | INFO | [num+text+img] epoch 10 loss 0.0365 val macro-AUC 0.9701
+2026-10-25 18:15:33,068 | INFO | [num+text+img] epoch 11 loss 0.0228 val macro-AUC 0.9447
+2026-10-25 18:15:34,218 | INFO | [num+text+img] epoch 12 loss 0.0248 val macro-AUC 0.9530
+2026-10-25 18:15:35,365 | INFO | [num+text+img] epoch 13 loss 0.0177 val macro-AUC 0.9476
+2026-10-25 18:15:36,522 | INFO | [num+text+img] epoch 14 loss 0.0197 val macro-AUC 0.9645
+2026-10-25 18:15:37,672 | INFO | [num+text+img] epoch 15 loss 0.0124 val macro-AUC 0.9409
+2026-10-25 18:15:37,725 | INFO | GEM-XAI (no modality dropout): best val AUC 0.9751
+2026-10-25 18:15:39,190 | INFO | [num+text+img] epoch 00 loss 0.1569 val macro-AUC 0.9534
+2026-10-25 18:15:40,427 | INFO | [num+text+img] epoch 01 loss 0.0791 val macro-AUC 0.9517
+2026-10-25 18:15:41,657 | INFO | [num+text+img] epoch 02 loss 0.0730 val macro-AUC 0.9644
+2026-10-25 18:15:42,898 | INFO | [num+text+img] epoch 03 loss 0.0624 val macro-AUC 0.9734
+2026-10-25 18:15:44,138 | INFO | [num+text+img] epoch 04 loss 0.0559 val macro-AUC 0.9785
+2026-10-25 18:15:45,374 | INFO | [num+text+img] epoch 05 loss 0.0502 val macro-AUC 0.9799
+2026-10-25 18:15:46,609 | INFO | [num+text+img] epoch 06 loss 0.0511 val macro-AUC 0.9783
+2026-10-25 18:15:47,847 | INFO | [num+text+img] epoch 07 loss 0.0526 val macro-AUC 0.9818
+2026-10-25 18:15:49,099 | INFO | [num+text+img] epoch 08 loss 0.0432 val macro-AUC 0.9834
+2026-10-25 18:15:50,333 | INFO | [num+text+img] epoch 09 loss 0.0452 val macro-AUC 0.9780
+2026-10-25 18:15:51,558 | INFO | [num+text+img] epoch 10 loss 0.0486 val macro-AUC 0.9819
+2026-10-25 18:15:52,784 | INFO | [num+text+img] epoch 11 loss 0.0420 val macro-AUC 0.9844
+2026-10-25 18:15:54,036 | INFO | [num+text+img] epoch 12 loss 0.0439 val macro-AUC 0.9748
+2026-10-25 18:15:55,272 | INFO | [num+text+img] epoch 13 loss 0.0398 val macro-AUC 0.9810
+2026-10-25 18:15:56,503 | INFO | [num+text+img] epoch 14 loss 0.0352 val macro-AUC 0.9859
+2026-10-25 18:15:57,736 | INFO | [num+text+img] epoch 15 loss 0.0353 val macro-AUC 0.9840
+2026-10-25 18:15:58,987 | INFO | [num+text+img] epoch 16 loss 0.0362 val macro-AUC 0.9809
+2026-10-25 18:16:00,214 | INFO | [num+text+img] epoch 17 loss 0.0344 val macro-AUC 0.9822
+2026-10-25 18:16:01,447 | INFO | [num+text+img] epoch 18 loss 0.0327 val macro-AUC 0.9641
+2026-10-25 18:16:02,674 | INFO | [num+text+img] epoch 19 loss 0.0337 val macro-AUC 0.9816
+2026-10-25 18:16:03,904 | INFO | [num+text+img] epoch 20 loss 0.0338 val macro-AUC 0.9775
+2026-10-25 18:16:05,149 | INFO | [num+text+img] epoch 21 loss 0.0364 val macro-AUC 0.9828
+2026-10-25 18:16:06,375 | INFO | [num+text+img] epoch 22 loss 0.0297 val macro-AUC 0.9813
+2026-10-25 18:16:06,427 | INFO | GEM-XAI (full): best val AUC 0.9859
+2026-10-25 18:16:06,486 | INFO | Seed 42 done
+2026-10-25 18:18:32,155 | INFO | Seed 43 done
+2026-10-25 18:21:04,056 | INFO | Seed 44 done
+2026-10-25 18:23:21,086 | INFO | Seed 45 done
+2026-10-25 18:25:15,578 | INFO | Seed 46 done
+2026-10-25 18:25:15,599 | INFO | 
+                               macro_f1_mean  macro_f1_std
+model                                                     
+MLP (indicators only)                 0.8364        0.0236
+FinBERT sentiment only                0.2610        0.0356
+ResNet-18 chart only                  0.5035        0.0227
+Indicators + Sentiment                0.8578        0.0334
+Indicators + Chart                    0.8458        0.0228
+Multimodal (no augmentation)          0.8689        0.0361
+GEM-XAI (no modality dropout)         0.8137        0.0140
+GEM-XAI (full)                        0.8689        0.0361
+2026-10-25 18:25:15,687 | INFO | 
+                        model  macro_f1  accuracy  macro_auc  recall_Bull  recall_Bear  recall_HighVol
+  HMM (filtered + transition)    0.9579    0.9571     0.9924       0.9580         0.96          0.9556
+ Persistence (today's regime)    0.9579    0.9571     0.9926       0.9580         0.96          0.9556
+         XGBoost (indicators)    0.8800    0.8847     0.9808       0.9231         0.92          0.8444
+        MLP (indicators only)    0.8483    0.8525     0.9705       0.9231         0.88          0.7889
+       FinBERT sentiment only    0.2148    0.2359     0.5086       0.0420         0.78          0.2389
+         ResNet-18 chart only    0.5096    0.5469     0.7311       0.7972         0.36          0.4000
+       Indicators + Sentiment    0.8433    0.8633     0.9574       0.9930         0.70          0.8056
+           Indicators + Chart    0.8532    0.8767     0.9712       0.9580         0.74          0.8500
+ Multimodal (no augmentation)    0.9053    0.9088     0.9828       0.9091         0.90          0.9111
+GEM-XAI (no modality dropout)    0.7977    0.8070     0.9461       0.8951         0.90          0.7111
+               GEM-XAI (full)    0.9053    0.9088     0.9828       0.9091         0.90          0.9111
+2026-10-25 18:25:36,539 | INFO | SHAP GradientExplainer over 373 test samples
+2026-10-25 18:27:42,382 | INFO | Integrated Gradients (sentiment branch)
+2026-10-25 18:27:44,715 | INFO | Grad-CAM (image branch)
+2026-10-25 18:27:45,643 | INFO | Faithfulness: first-attempt pass 100.0%, final pass 100.0%
+2026-10-25 18:27:45,648 | INFO | Done. Results in /content/gem-xai/results_v2
+2026-10-25 18:28:00,893 | INFO | HTTP Request: GET https://huggingface.co/api/agent-harnesses "HTTP/1.1 200 OK"
+2026-10-25 18:28:00,997 | INFO | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct "HTTP/1.1 200 OK"
+2026-10-25 18:28:01,102 | INFO | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-3B-Instruct/resolve/aa8e72537993ba99e69dfaafa59ed015b17504d1/adapter_config.json "HTTP/1.1 404 Not Found"
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-10-25 18:28:01,103 | WARNING | Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-10-25 18:28:01,204 | INFO | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-3B-Instruct/resolve/aa8e72537993ba99e69dfaafa59ed015b17504d1/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-25 18:28:01,213 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-3B-Instruct/aa8e72537993ba99e69dfaafa59ed015b17504d1/config.json?%2FQwen%2FQwen2.5-3B-Instruct%2Fresolve%2Faa8e72537993ba99e69dfaafa59ed015b17504d1%2Fconfig.json=&etag=%2251b83fbd4e2d363b60235b9c8d494046a83c1cbf%22 "HTTP/1.1 200 OK"
+2026-10-25 18:28:01,224 | INFO | HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-3B-Instruct/aa8e72537993ba99e69dfaafa59ed015b17504d1/config.json?%2FQwen%2FQwen2.5-3B-Instruct%2Fresolve%2Faa8e72537993ba99e69dfaafa59ed015b17504d1%2Fconfig.json=&etag=%2251b83fbd4e2d363b60235b9c8d494046a83c1cbf%22 "HTTP/1.1 200 OK"
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+2026-10-25 18:28:01,345 | INFO | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-3B-Instruct/resolve/aa8e72537993ba99e69dfaafa59ed015b17504d1/model.safetensors "HTTP/1.1 404 Not Found"
+2026-10-25 18:28:01,448 | INFO | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-3B-Instruct/resolve/aa8e72537993ba99e69dfaafa59ed015b17504d1/model.safetensors.index.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-25 18:28:01,465 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-3B-Instruct/aa8e72537993ba99e69dfaafa59ed015b17504d1/model.safetensors.index.json?%2FQwen%2FQwen2.5-3B-Instruct%2Fresolve%2Faa8e72537993ba99e69dfaafa59ed015b17504d1%2Fmodel.safetensors.index.json=&etag=%2238047c6284a25427043f0ab040f623a2a20dd093%22 "HTTP/1.1 200 OK"
+2026-10-25 18:28:01,476 | INFO | HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-3B-Instruct/aa8e72537993ba99e69dfaafa59ed015b17504d1/model.safetensors.index.json?%2FQwen%2FQwen2.5-3B-Instruct%2Fresolve%2Faa8e72537993ba99e69dfaafa59ed015b17504d1%2Fmodel.safetensors.index.json=&etag=%2238047c6284a25427043f0ab040f623a2a20dd093%22 "HTTP/1.1 200 OK"
+2026-10-25 18:28:01,587 | INFO | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct/tree/aa8e72537993ba99e69dfaafa59ed015b17504d1?recursive=true&expand=false "HTTP/1.1 200 OK"
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]2026-10-25 18:28:01,755 | INFO | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct/xet-read-token/aa8e72537993ba99e69dfaafa59ed015b17504d1 "HTTP/1.1 200 OK"
+Fetching 2 files:  50%|█████     | 1/2 [00:49<00:49, 49.68s/it]Fetching 2 files: 100%|██████████| 2/2 [00:49<00:00, 24.84s/it]
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights:   0%|          | 1/434 [00:04<29:52,  4.14s/it]Loading weights:  23%|██▎       | 99/434 [00:04<00:10, 32.74it/s]Loading weights:  34%|███▍      | 149/434 [00:06<00:10, 28.26it/s]Loading weights:  41%|████      | 177/434 [00:07<00:09, 26.56it/s]Loading weights:  45%|████▍     | 195/434 [00:08<00:09, 25.27it/s]Loading weights:  48%|████▊     | 208/434 [00:09<00:09, 23.75it/s]Loading weights:  50%|█████     | 217/434 [00:09<00:08, 25.61it/s]Loading weights:  52%|█████▏    | 225/434 [00:10<00:09, 21.74it/s]Loading weights:  53%|█████▎    | 231/434 [00:10<00:08, 22.69it/s]Loading weights:  54%|█████▍    | 236/434 [00:10<00:09, 20.83it/s]Loading weights:  56%|█████▌    | 243/434 [00:10<00:09, 20.89it/s]Loading weights:  57%|█████▋    | 247/434 [00:11<00:10, 18.50it/s]Loading weights:  59%|█████▉    | 255/434 [00:11<00:08, 22.05it/s]Loading weights:  59%|█████▉    | 258/434 [00:11<00:09, 17.92it/s]Loading weights:  62%|██████▏   | 267/434 [00:12<00:08, 20.87it/s]Loading weights:  62%|██████▏   | 270/434 [00:12<00:09, 17.19it/s]Loading weights:  64%|██████▍   | 279/434 [00:12<00:06, 22.80it/s]Loading weights:  65%|██████▍   | 282/434 [00:13<00:08, 18.14it/s]Loading weights:  67%|██████▋   | 291/434 [00:13<00:06, 22.11it/s]Loading weights:  68%|██████▊   | 294/434 [00:13<00:07, 17.72it/s]Loading weights:  70%|██████▉   | 303/434 [00:13<00:05, 23.18it/s]Loading weights:  71%|███████   | 306/434 [00:14<00:07, 18.17it/s]Loading weights:  73%|███████▎  | 315/434 [00:14<00:05, 22.24it/s]Loading weights:  73%|███████▎  | 318/434 [00:14<00:06, 17.73it/s]Loading weights:  75%|███████▌  | 327/434 [00:15<00:04, 22.70it/s]Loading weights:  76%|███████▌  | 330/434 [00:15<00:05, 17.72it/s]Loading weights:  78%|███████▊  | 339/434 [00:15<00:04, 22.82it/s]Loading weights:  79%|███████▉  | 342/434 [00:16<00:05, 17.95it/s]Loading weights:  81%|████████  | 351/434 [00:16<00:03, 22.24it/s]Loading weights:  82%|████████▏ | 354/434 [00:16<00:04, 17.59it/s]Loading weights:  84%|████████▎ | 363/434 [00:16<00:03, 21.67it/s]Loading weights:  84%|████████▍ | 366/434 [00:17<00:03, 17.35it/s]Loading weights:  86%|████████▋ | 375/434 [00:17<00:02, 22.30it/s]Loading weights:  87%|████████▋ | 378/434 [00:17<00:03, 17.63it/s]Loading weights:  89%|████████▉ | 387/434 [00:18<00:02, 22.07it/s]Loading weights:  90%|████████▉ | 390/434 [00:18<00:02, 17.59it/s]Loading weights:  92%|█████████▏| 399/434 [00:18<00:01, 21.99it/s]Loading weights:  93%|█████████▎| 402/434 [00:19<00:01, 17.25it/s]Loading weights:  95%|█████████▍| 411/434 [00:19<00:01, 21.90it/s]Loading weights:  95%|█████████▌| 414/434 [00:19<00:01, 17.26it/s]Loading weights:  97%|█████████▋| 423/434 [00:19<00:00, 21.70it/s]Loading weights:  98%|█████████▊| 426/434 [00:20<00:00, 18.08it/s]Loading weights: 100%|██████████| 434/434 [00:20<00:00, 21.39it/s]
+2026-10-25 18:29:12,445 | INFO | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-3B-Instruct/resolve/aa8e72537993ba99e69dfaafa59ed015b17504d1/generation_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-25 18:29:12,454 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-3B-Instruct/aa8e72537993ba99e69dfaafa59ed015b17504d1/generation_config.json?%2FQwen%2FQwen2.5-3B-Instruct%2Fresolve%2Faa8e72537993ba99e69dfaafa59ed015b17504d1%2Fgeneration_config.json=&etag=%22bf077f03dc569cfb8a90b3ec1ad20365a620bad6%22 "HTTP/1.1 200 OK"
+2026-10-25 18:29:12,464 | INFO | HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-3B-Instruct/aa8e72537993ba99e69dfaafa59ed015b17504d1/generation_config.json?%2FQwen%2FQwen2.5-3B-Instruct%2Fresolve%2Faa8e72537993ba99e69dfaafa59ed015b17504d1%2Fgeneration_config.json=&etag=%22bf077f03dc569cfb8a90b3ec1ad20365a620bad6%22 "HTTP/1.1 200 OK"
+2026-10-25 18:29:12,572 | INFO | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-3B-Instruct/resolve/aa8e72537993ba99e69dfaafa59ed015b17504d1/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-25 18:29:12,583 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-3B-Instruct/aa8e72537993ba99e69dfaafa59ed015b17504d1/tokenizer_config.json?%2FQwen%2FQwen2.5-3B-Instruct%2Fresolve%2Faa8e72537993ba99e69dfaafa59ed015b17504d1%2Ftokenizer_config.json=&etag=%2207bfe0640cb5a0037f9322287fbfc682806cf672%22 "HTTP/1.1 200 OK"
+2026-10-25 18:29:12,591 | INFO | HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-3B-Instruct/aa8e72537993ba99e69dfaafa59ed015b17504d1/tokenizer_config.json?%2FQwen%2FQwen2.5-3B-Instruct%2Fresolve%2Faa8e72537993ba99e69dfaafa59ed015b17504d1%2Ftokenizer_config.json=&etag=%2207bfe0640cb5a0037f9322287fbfc682806cf672%22 "HTTP/1.1 200 OK"
+2026-10-25 18:29:12,699 | INFO | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-10-25 18:29:12,806 | INFO | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-10-25 18:29:12,911 | INFO | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-3B-Instruct/resolve/aa8e72537993ba99e69dfaafa59ed015b17504d1/vocab.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-25 18:29:12,920 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-3B-Instruct/aa8e72537993ba99e69dfaafa59ed015b17504d1/vocab.json?%2FQwen%2FQwen2.5-3B-Instruct%2Fresolve%2Faa8e72537993ba99e69dfaafa59ed015b17504d1%2Fvocab.json=&etag=%224783fe10ac3adce15ac8f358ef5462739852c569%22 "HTTP/1.1 200 OK"
+2026-10-25 18:29:12,930 | INFO | HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-3B-Instruct/aa8e72537993ba99e69dfaafa59ed015b17504d1/vocab.json?%2FQwen%2FQwen2.5-3B-Instruct%2Fresolve%2Faa8e72537993ba99e69dfaafa59ed015b17504d1%2Fvocab.json=&etag=%224783fe10ac3adce15ac8f358ef5462739852c569%22 "HTTP/1.1 200 OK"
+2026-10-25 18:29:13,059 | INFO | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-3B-Instruct/resolve/aa8e72537993ba99e69dfaafa59ed015b17504d1/merges.txt "HTTP/1.1 307 Temporary Redirect"
+2026-10-25 18:29:13,069 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-3B-Instruct/aa8e72537993ba99e69dfaafa59ed015b17504d1/merges.txt?%2FQwen%2FQwen2.5-3B-Instruct%2Fresolve%2Faa8e72537993ba99e69dfaafa59ed015b17504d1%2Fmerges.txt=&etag=%2220024bfe7c83998e9aeaf98a0cd6a2ce6306c2f0%22 "HTTP/1.1 200 OK"
+2026-10-25 18:29:13,080 | INFO | HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-3B-Instruct/aa8e72537993ba99e69dfaafa59ed015b17504d1/merges.txt?%2FQwen%2FQwen2.5-3B-Instruct%2Fresolve%2Faa8e72537993ba99e69dfaafa59ed015b17504d1%2Fmerges.txt=&etag=%2220024bfe7c83998e9aeaf98a0cd6a2ce6306c2f0%22 "HTTP/1.1 200 OK"
+2026-10-25 18:29:13,195 | INFO | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-3B-Instruct/resolve/aa8e72537993ba99e69dfaafa59ed015b17504d1/tokenizer.json "HTTP/1.1 307 Temporary Redirect"
+2026-10-25 18:29:13,205 | INFO | HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-3B-Instruct/aa8e72537993ba99e69dfaafa59ed015b17504d1/tokenizer.json?%2FQwen%2FQwen2.5-3B-Instruct%2Fresolve%2Faa8e72537993ba99e69dfaafa59ed015b17504d1%2Ftokenizer.json=&etag=%22443909a61d429dff23010e5bddd28ff530edda00%22 "HTTP/1.1 200 OK"
+2026-10-25 18:29:13,216 | INFO | HTTP Request: GET https://huggingface.co/api/resolve-cache/models/Qwen/Qwen2.5-3B-Instruct/aa8e72537993ba99e69dfaafa59ed015b17504d1/tokenizer.json?%2FQwen%2FQwen2.5-3B-Instruct%2Fresolve%2Faa8e72537993ba99e69dfaafa59ed015b17504d1%2Ftokenizer.json=&etag=%22443909a61d429dff23010e5bddd28ff530edda00%22 "HTTP/1.1 200 OK"
+2026-10-25 18:29:13,365 | INFO | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-3B-Instruct/resolve/aa8e72537993ba99e69dfaafa59ed015b17504d1/added_tokens.json "HTTP/1.1 404 Not Found"
+2026-10-25 18:29:13,472 | INFO | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-3B-Instruct/resolve/aa8e72537993ba99e69dfaafa59ed015b17504d1/special_tokens_map.json "HTTP/1.1 404 Not Found"
+2026-10-25 18:29:13,574 | INFO | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-3B-Instruct/resolve/aa8e72537993ba99e69dfaafa59ed015b17504d1/chat_template.jinja "HTTP/1.1 404 Not Found"
+2026-10-25 18:29:14,270 | INFO | HTTP Request: GET https://huggingface.co/api/models/Qwen/Qwen2.5-3B-Instruct "HTTP/1.1 200 OK"
+2026-10-25 18:29:14,373 | INFO | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-3B-Instruct/resolve/aa8e72537993ba99e69dfaafa59ed015b17504d1/processor_config.json "HTTP/1.1 404 Not Found"
+2026-10-25 18:29:14,475 | INFO | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-3B-Instruct/resolve/aa8e72537993ba99e69dfaafa59ed015b17504d1/video_preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-10-25 18:29:14,577 | INFO | HTTP Request: HEAD https://huggingface.co/Qwen/Qwen2.5-3B-Instruct/resolve/aa8e72537993ba99e69dfaafa59ed015b17504d1/preprocessor_config.json "HTTP/1.1 404 Not Found"
+2026-10-25 18:29:24,062 | INFO | 2024-01-18 Bull first-pass=True
+2026-10-25 18:29:35,613 | INFO | 2024-01-19 Bull first-pass=True
+2026-10-25 18:29:49,278 | INFO | 2024-02-08 Bull first-pass=True
+2026-10-25 18:30:00,738 | INFO | 2024-03-08 HighVol first-pass=True
+2026-10-25 18:30:24,164 | INFO | 2024-04-23 HighVol first-pass=False
+2026-10-25 18:30:33,426 | INFO | 2024-05-07 HighVol first-pass=True
+2026-10-25 18:30:43,557 | INFO | 2024-05-17 HighVol first-pass=True
+2026-10-25 18:30:54,598 | INFO | 2024-05-21 Bull first-pass=True
+2026-10-25 18:31:04,022 | INFO | 2024-05-22 Bull first-pass=True
+[transformers] You seem to be using the pipelines sequentially on GPU. In order to maximize efficiency please use a dataset
+2026-10-25 18:31:40,276 | INFO | 2024-06-13 Bull first-pass=False
+2026-10-25 18:31:49,239 | INFO | 2024-07-02 Bull first-pass=True
+2026-10-25 18:31:59,259 | INFO | 2024-07-16 Bull first-pass=True
+2026-10-25 18:32:27,088 | INFO | 2024-07-19 Bull first-pass=False
+2026-10-25 18:32:36,183 | INFO | 2024-07-23 Bull first-pass=True
+2026-10-25 18:33:01,880 | INFO | 2024-08-08 Bear first-pass=False
+2026-10-25 18:33:09,503 | INFO | 2024-08-09 Bear first-pass=True
+2026-10-25 18:33:24,445 | INFO | 2024-08-15 Bear first-pass=False
+2026-10-25 18:33:32,223 | INFO | 2024-08-16 Bear first-pass=True
+2026-10-25 18:33:46,000 | INFO | 2024-08-21 Bear first-pass=True
+2026-10-25 18:33:59,588 | INFO | 2024-08-28 HighVol first-pass=True
+2026-10-25 18:34:11,063 | INFO | 2024-09-04 HighVol first-pass=True
+2026-10-25 18:34:20,576 | INFO | 2024-09-06 HighVol first-pass=True
+2026-10-25 18:34:36,602 | INFO | 2024-09-10 HighVol first-pass=True
+2026-10-25 18:34:45,583 | INFO | 2024-09-18 HighVol first-pass=True
+2026-10-25 18:34:58,474 | INFO | 2024-10-03 Bull first-pass=True
+2026-10-25 18:35:13,277 | INFO | 2024-10-04 Bull first-pass=True
+2026-10-25 18:35:22,913 | INFO | 2024-10-11 Bull first-pass=True
+2026-10-25 18:35:31,309 | INFO | 2024-10-18 Bull first-pass=True
+2026-10-25 18:35:37,895 | INFO | 2024-10-21 Bull first-pass=True
+2026-10-25 18:35:53,367 | INFO | 2024-11-08 HighVol first-pass=True
+2026-10-25 18:35:59,753 | INFO | 2024-11-14 HighVol first-pass=True
+2026-10-25 18:36:08,779 | INFO | 2024-12-13 Bull first-pass=True
+2026-10-25 18:36:18,480 | INFO | 2024-12-17 Bull first-pass=True
+2026-10-25 18:36:31,424 | INFO | 2025-01-27 HighVol first-pass=True
+2026-10-25 18:36:46,974 | INFO | 2025-02-27 HighVol first-pass=True
+2026-10-25 18:36:55,719 | INFO | 2025-03-20 HighVol first-pass=True
+2026-10-25 18:37:02,038 | INFO | 2025-03-31 Bear first-pass=True
+2026-10-25 18:37:09,950 | INFO | 2025-04-04 Bear first-pass=True
+2026-10-25 18:37:16,757 | INFO | 2025-04-07 Bear first-pass=True
+2026-10-25 18:37:24,379 | INFO | 2025-04-14 Bear first-pass=True
+2026-10-25 18:37:33,512 | INFO | 2025-04-22 Bear first-pass=True
+2026-10-25 18:37:42,334 | INFO | 2025-04-24 Bear first-pass=True
+2026-10-25 18:37:55,619 | INFO | 2025-04-25 Bear first-pass=True
+2026-10-25 18:38:36,392 | INFO | 2025-05-01 Bear first-pass=False
+2026-10-25 18:38:59,357 | INFO | 2025-05-05 Bear first-pass=False
+2026-10-25 18:39:21,154 | INFO | 2025-05-09 Bear first-pass=False
+2026-10-25 18:39:31,954 | INFO | 2025-05-14 Bear first-pass=True
+2026-10-25 18:39:40,854 | INFO | 2025-05-15 Bear first-pass=True
+2026-10-25 18:39:55,079 | INFO | 2025-05-28 HighVol first-pass=True
+2026-10-25 18:40:26,282 | INFO | 2025-06-17 HighVol first-pass=False
+2026-10-25 18:40:26,303 | INFO | First-attempt pass 82.0%, final pass 94.0%

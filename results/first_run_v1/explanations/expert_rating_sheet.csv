@@ -1,0 +1,201 @@
+date,predicted_regime,explanation,factual_accuracy,coherence,specificity,actionability
+2024-01-26,Bull,"1. Predicted regime and confidence: Bull, 0.93
+2. Key drivers: rv_21 = 0.0906 (SHAP 0.9993); atr_14_pct = 0.008 (SHAP 0.8349); rsi_14 = 71.9093 (SHAP 0.51)
+3. Supporting evidence: net sentiment of 0.0 and attention on recent (days 21-30) candles, lower price range.
+4. Uncertainty note: None",,,,
+2024-01-30,Bull,"1. Predicted regime and confidence: Bull, 0.924
+2. Key drivers: rv_21 = 0.0938 (SHAP 1.725); atr_14_pct = 0.0076 (SHAP 1.4398); rsi_14 = 74.3759 (SHAP 0.5852)
+3. Supporting evidence: net sentiment of 0.0 and attention on recent (days 21-30) candles, lower price range.
+4. Uncertainty note: None",,,,
+2024-02-29,Bull,"1. Predicted regime and confidence: Bull, 0.91
+2. Key drivers: atr_14_pct = 0.0084 (SHAP 1.0806); rv_21 = 0.135 (SHAP 0.7504); rv_5 = 0.0447 (SHAP 0.5966)
+3. Supporting evidence: net sentiment of 0.0 and attention on recent (days 21-30) candles, upper price range.
+4. Uncertainty note: None",,,,
+2024-04-25,HighVol,"1. Predicted regime and confidence: HighVol, 0.629
+2. Key drivers: rv_21 = 0.123 (SHAP -0.1712); atr_14_pct = 0.0119 (SHAP -0.1025); sma_200_ratio = 0.0829 (SHAP -0.0608)
+3. Supporting evidence: net sentiment of 0.0 and attention on early-window (days 1-10) candles, lower price range.
+4. Uncertainty note: Confidence is below 0.65.",,,,
+2024-05-03,HighVol,"1. Predicted regime and confidence: HighVol, 0.737
+2. Key drivers: rv_21 = 0.1412 (SHAP -0.1226); atr_14_pct = 0.0123 (SHAP -0.0839); sma_200_ratio = 0.0955 (SHAP -0.066)
+3. Supporting evidence: net sentiment of 0.0 and attention on early-window (days 1-10) candles, lower price range.
+4. Uncertainty note: None",,,,
+2024-05-10,HighVol,"1. Predicted regime and confidence: HighVol, 0.669
+2. Key drivers: rv_21 = 0.1354 (SHAP -0.1611); atr_14_pct = 0.0103 (SHAP -0.1386); sma_200_ratio = 0.1118 (SHAP -0.073)
+3. Supporting evidence: net sentiment of 0.0 and attention on early-window (days 1-10) candles, lower price range.
+4. Uncertainty note: None",,,,
+2024-06-06,Bull,"1. Predicted regime and confidence: Bull, 0.922
+2. Key drivers: rv_21 = 0.0863 (SHAP 1.1157); atr_14_pct = 0.0092 (SHAP 0.707); bb_width = 0.0319 (SHAP 0.4613)
+3. Supporting evidence: net sentiment of 0.0 and attention on recent (days 21-30) candles, upper price range.
+4. Uncertainty note: None",,,,
+2024-07-09,Bull,"1. Predicted regime and confidence: Bull, 0.984
+2. Key drivers: rv_21 = 0.054 (SHAP 1.4278); atr_14_pct = 0.0071 (SHAP 0.9136); rsi_14 = 77.9543 (SHAP 0.8378)
+3. Supporting evidence: net sentiment of 0.0 and attention on recent (days 21-30) candles, upper price range.
+4. Uncertainty note: None",,,,
+2024-07-15,Bull,"1. Predicted regime and confidence: Bull, 0.953
+2. Key drivers: rv_21 = 0.0688 (SHAP 1.7865); atr_14_pct = 0.0081 (SHAP 1.1462); rsi_14 = 74.2575 (SHAP 0.6775)
+3. Supporting evidence: net sentiment of 0.0 and attention on recent (days 21-30) candles, upper price range.
+4. Uncertainty note: None",,,,
+2024-07-24,HighVol,"1. Predicted regime and confidence: HighVol, 0.593
+2. Key drivers: sma_10_ratio = -0.025 (SHAP 0.0967); atr_14_pct = 0.0105 (SHAP -0.0779); rv_21 = 0.1294 (SHAP -0.0766)
+3. Supporting evidence: net sentiment of 0.0 and attention on early-window (days 1-10) candles, lower price range.
+4. Uncertainty note: Confidence is below 0.65.",,,,
+2024-08-08,Bear,"1. Predicted regime and confidence: Bear, 0.601
+2. Key drivers: rv_5 = 0.3341 (SHAP 0.57); macd_hist = -0.006 (SHAP -0.4365); atr_14_pct = 0.0182 (SHAP 0.4099)
+3. Supporting evidence: net sentiment of 0.0 and attention on recent (days 21-30) candles, upper price range.
+4. Uncertainty note: Confidence is below 0.65.",,,,
+2024-08-09,Bear,"1. Predicted regime and confidence: Bear, 0.584
+2. Key drivers: rv_5 = 0.3119 (SHAP 0.6317); atr_14_pct = 0.0176 (SHAP 0.5805); rv_21 = 0.209 (SHAP 0.5359)
+3. Supporting evidence: net sentiment of 0.0 and attention on recent (days 21-30) candles, upper price range.
+4. Uncertainty note: Confidence is below 0.65.",,,,
+2024-08-16,HighVol,"1. Predicted regime and confidence: HighVol, 0.503
+2. Key drivers: rv_21 = 0.2184 (SHAP 0.1261); sma_200_ratio = 0.1022 (SHAP -0.0877); macd_hist = 0.0042 (SHAP 0.0785)
+3. Supporting evidence: net sentiment of 0.0 and attention on early-window (days 1-10) candles, upper price range.
+4. Uncertainty note: Confidence is below 0.65.",,,,
+2024-08-19,Bear,"1. Predicted regime and confidence: Bear, 0.546
+2. Key drivers: rv_21 = 0.2192 (SHAP 0.5891); macd_hist = 0.0054 (SHAP 0.3895); sma_200_ratio = 0.1112 (SHAP -0.3788)
+3. Supporting evidence: net sentiment of 0.0 and attention on early-window (days 1-10) candles, upper price range.
+4. Uncertainty note: Confidence is below 0.65.",,,,
+2024-08-20,Bear,"1. Predicted regime and confidence: Bear, 0.505
+2. Key drivers: rv_21 = 0.2167 (SHAP 0.5474); macd_hist = 0.0059 (SHAP 0.4449); sma_200_ratio = 0.1078 (SHAP -0.3325)
+3. Supporting evidence: net sentiment of 0.0 and attention on early-window (days 1-10) candles, upper price range.
+4. Uncertainty note: Confidence is below 0.65.",,,,
+2024-08-26,HighVol,"1. Predicted regime and confidence: HighVol, 0.562
+2. Key drivers: sma_200_ratio = 0.1063 (SHAP -0.1242); macd_hist = 0.0048 (SHAP 0.1014); atr_14_pct = 0.0136 (SHAP -0.0903)
+3. Supporting evidence: net sentiment of 0.0 and attention on early-window (days 1-10) candles, upper price range.
+4. Uncertainty note: Confidence is below 0.65.",,,,
+2024-08-27,HighVol,"1. Predicted regime and confidence: HighVol, 0.583
+2. Key drivers: bb_width = 0.1117 (SHAP 0.1174); sma_200_ratio = 0.1064 (SHAP -0.1174); macd_hist = 0.0043 (SHAP 0.0943)
+3. Supporting evidence: net sentiment of 0.0 and attention on early-window (days 1-10) candles, upper price range.
+4. Uncertainty note: Confidence is below 0.65.",,,,
+2024-08-28,HighVol,"1. Predicted regime and confidence: HighVol, 0.592
+2. Key drivers: bb_width = 0.1135 (SHAP 0.1091); sma_200_ratio = 0.0985 (SHAP -0.0918); atr_14_pct = 0.013 (SHAP -0.0692)
+3. Supporting evidence: net sentiment of 0.0 and attention on early-window (days 1-10) candles, upper price range.
+4. Uncertainty note: Confidence is below 0.65.",,,,
+2024-08-30,HighVol,"1. Predicted regime and confidence: HighVol, 0.568
+2. Key drivers: bb_width = 0.1162 (SHAP 0.1368); atr_14_pct = 0.0128 (SHAP -0.1302); sma_200_ratio = 0.1064 (SHAP -0.1291)
+3. Supporting evidence: net sentiment of 0.0 and attention on recent (days 21-30) candles, lower price range.
+4. Uncertainty note: Confidence is below 0.65.",,,,
+2024-09-12,HighVol,"1. Predicted regime and confidence: HighVol, 0.559
+2. Key drivers: rv_21 = 0.1471 (SHAP -0.1545); bb_width = 0.0434 (SHAP -0.088); sma_200_ratio = 0.0886 (SHAP -0.0682)
+3. Supporting evidence: net sentiment of 0.0 and attention on early-window (days 1-10) candles, lower price range.
+4. Uncertainty note: Confidence is below 0.65.",,,,
+2024-09-25,HighVol,"1. Predicted regime and confidence: HighVol, 0.563
+2. Key drivers: rv_21 = 0.1376 (SHAP -0.1661); atr_14_pct = 0.0114 (SHAP -0.1205); sma_200_ratio = 0.1022 (SHAP -0.0824)
+3. Supporting evidence: net sentiment of 0.0 and attention on early-window (days 1-10) candles, lower price range.
+4. Uncertainty note: Confidence is below 0.65.",,,,
+2024-10-01,Bull,"1. Predicted regime and confidence: Bull, 0.555
+2. Key drivers: rv_21 = 0.1376 (SHAP 0.988); atr_14_pct = 0.0112 (SHAP 0.7401); rv_5 = 0.0852 (SHAP 0.4091)
+3. Supporting evidence: net sentiment of 0.0 and attention on recent (days 21-30) candles, upper price range.
+4. Uncertainty note: Confidence is below 0.65.",,,,
+2024-10-17,Bull,"1. Predicted regime and confidence: Bull, 0.898
+2. Key drivers: rv_21 = 0.1027 (SHAP 1.3178); atr_14_pct = 0.0094 (SHAP 0.8993); bb_width = 0.0372 (SHAP 0.5245)
+3. Supporting evidence: net sentiment of 0.0 and attention on recent (days 21-30) candles, upper price range.
+4. Uncertainty note: None",,,,
+2024-10-30,Bull,"1. Predicted regime and confidence: Bull, 0.941
+2. Key drivers: rv_21 = 0.0868 (SHAP 1.5702); atr_14_pct = 0.0088 (SHAP 1.0353); bb_width = 0.0342 (SHAP 0.6536)
+3. Supporting evidence: net sentiment of 0.0 and attention on recent (days 21-30) candles, upper price range.
+4. Uncertainty note: None",,,,
+2024-11-01,Bull,"1. Predicted regime and confidence: Bull, 0.803
+2. Key drivers: rv_21 = 0.1135 (SHAP 0.8993); atr_14_pct = 0.0099 (SHAP 0.6847); bb_width = 0.0346 (SHAP 0.5363)
+3. Supporting evidence: net sentiment of 0.0 and attention on recent (days 21-30) candles, lower price range.
+4. Uncertainty note: None",,,,
+2024-11-04,Bull,"1. Predicted regime and confidence: Bull, 0.799
+2. Key drivers: rv_21 = 0.1091 (SHAP 1.1781); atr_14_pct = 0.0098 (SHAP 0.9096); bb_width = 0.0331 (SHAP 0.6741)
+3. Supporting evidence: net sentiment of 0.0 and attention on recent (days 21-30) candles, upper price range.
+4. Uncertainty note: None",,,,
+2024-11-19,Bull,"1. Predicted regime and confidence: Bull, 0.651
+2. Key drivers: atr_14_pct = 0.01 (SHAP 0.8505); rv_21 = 0.1417 (SHAP 0.7603); sma_200_ratio = 0.0964 (SHAP 0.3483)
+3. Supporting evidence: net sentiment of 0.0 and attention on recent (days 21-30) candles, upper price range.
+4. Uncertainty note: None",,,,
+2024-11-29,Bull,"1. Predicted regime and confidence: Bull, 0.773
+2. Key drivers: atr_14_pct = 0.0091 (SHAP 1.0756); rv_21 = 0.1395 (SHAP 0.8194); rv_5 = 0.057 (SHAP 0.5604)
+3. Supporting evidence: net sentiment of 0.0 and attention on recent (days 21-30) candles, lower price range.
+4. Uncertainty note: None",,,,
+2024-12-09,Bull,"1. Predicted regime and confidence: Bull, 0.949
+2. Key drivers: rv_21 = 0.0758 (SHAP 1.7085); atr_14_pct = 0.0074 (SHAP 1.3121); rv_5 = 0.0668 (SHAP 0.538)
+3. Supporting evidence: net sentiment of 0.0 and attention on recent (days 21-30) candles, upper price range.
+4. Uncertainty note: None",,,,
+2025-01-14,HighVol,"1. Predicted regime and confidence: HighVol, 0.691
+2. Key drivers: atr_14_pct = 0.0127 (SHAP -0.1111); rv_21 = 0.1598 (SHAP -0.1089); rsi_14 = 41.2223 (SHAP 0.0674)
+3. Supporting evidence: net sentiment of 0.0 and attention on early-window (days 1-10) candles, lower price range.
+4. Uncertainty note: None",,,,
+2025-01-24,HighVol,"1. Predicted regime and confidence: HighVol, 0.685
+2. Key drivers: rv_21 = 0.1386 (SHAP -0.1475); atr_14_pct = 0.011 (SHAP -0.1201); macd_hist = 0.0041 (SHAP 0.08)
+3. Supporting evidence: net sentiment of 0.0 and attention on early-window (days 1-10) candles, lower price range.
+4. Uncertainty note: None",,,,
+2025-02-04,HighVol,"1. Predicted regime and confidence: HighVol, 0.616
+2. Key drivers: rv_21 = 0.1395 (SHAP -0.1889); atr_14_pct = 0.0121 (SHAP -0.1345); sma_200_ratio = 0.0753 (SHAP -0.0787)
+3. Supporting evidence: net sentiment of 0.0 and attention on early-window (days 1-10) candles, lower price range.
+4. Uncertainty note: Confidence is below 0.65.",,,,
+2025-03-03,HighVol,"1. Predicted regime and confidence: HighVol, 0.647
+2. Key drivers: rv_21 = 0.1386 (SHAP -0.154); high_low_range = 0.0299 (SHAP 0.1456); sma_10_ratio = -0.0244 (SHAP 0.1241)
+3. Supporting evidence: net sentiment of 0.0 and attention on early-window (days 1-10) candles, lower price range.
+4. Uncertainty note: Confidence is below 0.65.",,,,
+2025-03-13,Bear,"1. Predicted regime and confidence: Bear, 0.576
+2. Key drivers: bb_width = 0.1351 (SHAP 0.7374); atr_14_pct = 0.0182 (SHAP 0.5888); macd_hist = -0.0077 (SHAP -0.5468)
+3. Supporting evidence: net sentiment of 0.0 and attention on early-window (days 1-10) candles, upper price range.
+4. Uncertainty note: Confidence is below 0.65.",,,,
+2025-03-21,Bear,"1. Predicted regime and confidence: Bear, 0.55
+2. Key drivers: atr_14_pct = 0.0169 (SHAP 0.4314); rv_21 = 0.2013 (SHAP 0.3898); bb_width = 0.0994 (SHAP 0.364)
+3. Supporting evidence: net sentiment of 0.0 and attention on early-window (days 1-10) candles, upper price range.
+4. Uncertainty note: Confidence is below 0.65.",,,,
+2025-03-31,Bear,"1. Predicted regime and confidence: Bear, 0.599
+2. Key drivers: atr_14_pct = 0.0169 (SHAP 0.4094); rv_21 = 0.2077 (SHAP 0.3806); volume_z = 2.0285 (SHAP -0.3398)
+3. Supporting evidence: net sentiment of 0.0 and attention on early-window (days 1-10) candles, upper price range.
+4. Uncertainty note: Confidence is below 0.65.",,,,
+2025-04-01,Bear,"1. Predicted regime and confidence: Bear, 0.61
+2. Key drivers: rv_21 = 0.2011 (SHAP 0.5434); atr_14_pct = 0.0168 (SHAP 0.5045); sma_50_ratio = -0.042 (SHAP 0.2355)
+3. Supporting evidence: net sentiment of 0.0 and attention on early-window (days 1-10) candles, upper price range.
+4. Uncertainty note: Confidence is below 0.65.",,,,
+2025-04-10,Bear,"1. Predicted regime and confidence: Bear, 0.989
+2. Key drivers: rv_21 = 0.5037 (SHAP 3.3187); atr_14_pct = 0.0387 (SHAP 3.0783); rv_5 = 0.9967 (SHAP 2.9194)
+3. Supporting evidence: net sentiment of 0.0 and attention on recent (days 21-30) candles, lower price range.
+4. Uncertainty note: None",,,,
+2025-04-21,Bear,"1. Predicted regime and confidence: Bear, 0.974
+2. Key drivers: rv_21 = 0.5082 (SHAP 3.6608); atr_14_pct = 0.0342 (SHAP 2.4473); bb_width = 0.1813 (SHAP 1.0917)
+3. Supporting evidence: net sentiment of 0.0 and attention on early-window (days 1-10) candles, upper price range.
+4. Uncertainty note: None",,,,
+2025-04-23,Bear,"1. Predicted regime and confidence: Bear, 0.971
+2. Key drivers: rv_21 = 0.5175 (SHAP 4.0975); atr_14_pct = 0.0327 (SHAP 2.5688); bb_width = 0.162 (SHAP 0.9056)
+3. Supporting evidence: net sentiment of 0.0 and attention on early-window (days 1-10) candles, upper price range.
+4. Uncertainty note: None",,,,
+2025-04-24,Bear,"1. Predicted regime and confidence: Bear, 0.968
+2. Key drivers: rv_21 = 0.524 (SHAP 4.142); atr_14_pct = 0.0313 (SHAP 2.4129); bb_width = 0.1535 (SHAP 0.7728)
+3. Supporting evidence: net sentiment of 0.0 and attention on early-window (days 1-10) candles, upper price range.
+4. Uncertainty note: None",,,,
+2025-04-25,Bear,"1. Predicted regime and confidence: Bear, 0.965
+2. Key drivers: rv_21 = 0.5238 (SHAP 3.6065); atr_14_pct = 0.0298 (SHAP 1.8357); bb_width = 0.146 (SHAP 0.6415)
+3. Supporting evidence: net sentiment of 0.0 and attention on early-window (days 1-10) candles, upper price range.
+4. Uncertainty note: None",,,,
+2025-04-30,Bear,"1. Predicted regime and confidence: Bear, 0.95
+2. Key drivers: rv_21 = 0.5192 (SHAP 4.2451); atr_14_pct = 0.0274 (SHAP 1.9673); bb_width = 0.1389 (SHAP 0.7547)
+3. Supporting evidence: net sentiment of 0.0 and attention on early-window (days 1-10) candles, upper price range.
+4. Uncertainty note: None",,,,
+2025-05-06,Bear,"1. Predicted regime and confidence: Bear, 0.907
+2. Key drivers: rv_21 = 0.4354 (SHAP 3.0949); atr_14_pct = 0.0237 (SHAP 1.3551); bb_width = 0.1331 (SHAP 0.6167)
+3. Supporting evidence: net sentiment of 0.0 and attention on early-window (days 1-10) candles, lower price range.
+4. Uncertainty note: None",,,,
+2025-05-16,Bear,"1. Predicted regime and confidence: Bear, 0.671
+2. Key drivers: bb_width = 0.1502 (SHAP 0.9369); atr_14_pct = 0.0179 (SHAP 0.6535); macd_hist = 0.0076 (SHAP 0.3785)
+3. Supporting evidence: net sentiment of 0.0 and attention on recent (days 21-30) candles, lower price range.
+4. Uncertainty note: None",,,,
+2025-05-27,Bear,"1. Predicted regime and confidence: Bear, 0.585
+2. Key drivers: bb_width = 0.1016 (SHAP 0.4571); atr_14_pct = 0.0166 (SHAP 0.4545); rv_5 = 0.2192 (SHAP 0.2713)
+3. Supporting evidence: net sentiment of 0.0 and attention on early-window (days 1-10) candles, upper price range.
+4. Uncertainty note: Confidence is below 0.65.",,,,
+2025-05-30,HighVol,"1. Predicted regime and confidence: HighVol, 0.554
+2. Key drivers: rv_21 = 0.1683 (SHAP -0.1303); macd = 0.0156 (SHAP 0.0625); macd_signal = 0.0162 (SHAP -0.0454)
+3. Supporting evidence: net sentiment of 0.0 and attention on early-window (days 1-10) candles, lower price range.
+4. Uncertainty note: Confidence is below 0.65.",,,,
+2025-06-11,Bull,"1. Predicted regime and confidence: Bull, 0.722
+2. Key drivers: rv_21 = 0.1187 (SHAP 1.1319); bb_width = 0.0424 (SHAP 0.4021); rv_5 = 0.098 (SHAP 0.3706)
+3. Supporting evidence: net sentiment of 0.0 and attention on recent (days 21-30) candles, upper price range.
+4. Uncertainty note: None",,,,
+2025-06-13,Bull,"1. Predicted regime and confidence: Bull, 0.668
+2. Key drivers: rv_21 = 0.1254 (SHAP 0.859); atr_14_pct = 0.0124 (SHAP 0.3627); bb_width = 0.0452 (SHAP 0.3299)
+3. Supporting evidence: net sentiment of 0.0 and attention on recent (days 21-30) candles, upper price range.
+4. Uncertainty note: None",,,,
+2025-06-23,Bull,"1. Predicted regime and confidence: Bull, 0.664
+2. Key drivers: rv_21 = 0.1184 (SHAP 1.0538); bb_width = 0.0414 (SHAP 0.4696); atr_14_pct = 0.0119 (SHAP 0.4482)
+3. Supporting evidence: net sentiment of 0.0 and attention on recent (days 21-30) candles, upper price range.
+4. Uncertainty note: None",,,,

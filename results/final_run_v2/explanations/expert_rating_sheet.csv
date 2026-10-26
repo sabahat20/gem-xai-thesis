@@ -1,0 +1,201 @@
+date,predicted_regime,explanation,factual_accuracy,coherence,specificity,actionability
+2024-01-18,Bull,"1. Predicted regime and confidence: Bull, 0.787
+2. Key drivers: rv_21, rsi_14, volume_z
+3. Supporting evidence: The observed value of rv_21 is 0.1031, which is positive indicating an upward trend. The observed value of rsi_14 is 61.8334, suggesting the market is neither overbought nor oversold. The observed value of volume_z is 0.4901, pointing towards increased buying pressure. These indicators align with typical Bull market characteristics such as positive momentum, moderate levels of consolidation, and strong buying interest.
+4. Uncertainty note: None",,,,
+2024-01-19,Bull,"1. Predicted regime and confidence: Bull, 0.814
+2. Key drivers: rv_21 (0.1097), rsi_14 (68.227), sma_50_ratio (0.0448)
+3. Supporting evidence: The observed value of rv_21 (0.1097) suggests a positive momentum, which is characteristic of a Bull market. The RSI (Relative Strength Index) at 68.227 indicates moderate overbought conditions, but still within a Bullish zone. The SMA 50 ratio of 0.0448 shows a recent upward trend relative to a longer-term moving average, another sign of Bullish behavior. The negative net sentiment (-0.523) further supports a Bullish outlook, as it implies a general optimism among traders. The dominant chart region, showing recent candles in the upper price range, aligns with Bullish patterns where prices tend to move higher.
+4. Uncertainty note: None",,,,
+2024-02-08,Bull,"1. Predicted regime and confidence: Bull, 0.726
+2. Key drivers: rv_21 (0.1086), rsi_14 (70.5633), sma_50_ratio (0.0508), macd (0.0135), obv_z (1.6727)
+3. Supporting evidence: The observed values of key features like rsi_14 at 70.5633 indicate a Bullish condition, suggesting an uptrend. The negative shap values for sma_50_ratio (-0.5373) and macd (-0.4254) suggest these features are contributing to the Bullish regime. The positive observed value of obv_z (1.6727) further supports the Bullish sentiment. The net sentiment score of -0.375 leans towards a Bullish market, aligning with the Bullish regime prediction. The dominant chart region being ""recent (days 21-30) candles, upper price range"" also points towards a Bullish market, as it indicates recent price movements are in the higher price zone.
+4. Uncertainty note: None",,,,
+2024-03-08,HighVol,"1. Predicted regime and confidence: HighVol, 0.565
+2. Key drivers: macd_signal, sma_50_ratio, return_21d, rsi_14, sma_200_ratio
+3. Supporting evidence: The observed values of the key features indicate a bullish bias, as seen in the positive shap values for macd_signal and sma_50_ratio, and a bearish bias in the negative shap value for return_21d. The RSI at 62.814 suggests a neutral to slightly bullish market condition, while the positive ratio for SMA_200 compared to SMA_50 indicates a potential for a high volatility environment. The net sentiment score of -0.387 also points towards a volatile market, consistent with the HighVol regime. The dominant chart region showing recent candles in the upper price range further supports the notion of high volatility.
+4. Uncertainty note: Uncertainty_flag is true, indicating confidence is below 0.65.",,,,
+2024-04-23,HighVol,"1. Predicted regime and confidence: HighVol, 0.63
+2. Key drivers: return_21d (-0.0299), rsi_14 (46.0614), atr_14_pct (0.0119), rv_21 (0.1227)
+3. Supporting evidence: The negative return_21d value suggests recent underperformance, which is common in HighVol regimes. The RSI at 46.0614 indicates a moderate oversold condition, consistent with HighVol periods where markets are volatile but not necessarily overbought or oversold. The ATR at 0.0119 shows low volatility, aligning with HighVol conditions where price ranges are narrow but still active. The RV_21 of 0.1227 points to positive momentum, which is characteristic of HighVol environments where short-term trends can be strong.
+4. Uncertainty note: Uncertainty_flag is true, indicating confidence is below 0.65.",,,,
+2024-05-07,HighVol,"1. Predicted regime and confidence: HighVol, 0.973
+2. Key drivers: rv_21, volume_z, atr_14_pct, macd_signal, high_low_range
+3. Supporting evidence: The key driver features 'rv_21' and 'volume_z' have positive observed values indicating higher volatility and trading activity, respectively. The 'macd_signal' has a negative value suggesting a bearish signal, but it's overshadowed by the positive 'high_low_range' which shows a narrower price range. The net sentiment score of -0.284 also aligns with HighVol conditions, where traders are generally more cautious and less optimistic. The dominant chart region of recent (days 21-30) candles with a lower price range further supports the HighVol classification.
+4. Uncertainty note: None",,,,
+2024-05-17,HighVol,"1. Predicted regime and confidence: HighVol, 0.543
+2. Key drivers: rsi_14 (68.8088), macd_hist (0.0042), sma_20_ratio (0.0305)
+3. Supporting evidence: The recent (days 21-30) candles show an upper price range, indicating volatility. The observed values of key features such as RSI (Relative Strength Index) at 68.8088 and MACD Histogram at 0.0042 suggest high volatility. Additionally, the SMA 20 Ratio at 0.0305 also points towards a volatile market. The net sentiment score of 0.001 further supports the presence of volatility, as it indicates a slight positive bias but is very close to zero.
+4. Uncertainty note: True",,,,
+2024-05-21,Bull,"1. Predicted regime and confidence: Bull, 0.773
+2. Key drivers: rv_21 (0.1069), rsi_14 (70.4559), volume_z (-1.9503), atr_14_pct (0.0084)
+3. Supporting evidence: The observed values of key features like rsi_14 at 70.4559 indicate a Bullish condition, suggesting an uptrend. The negative value of volume_z (-1.9503) suggests a relative underperformance compared to recent periods, which is consistent with a Bull market where buying pressure is strong. The net sentiment score of -0.357 also leans towards a Bullish market, indicating optimism among traders. The dominant chart region being ""recent (days 21-30) candles, upper price range"" further supports the Bullish classification, as it points to sustained upward momentum.
+4. Uncertainty note: None",,,,
+2024-05-22,Bull,"1. Predicted regime and confidence: Bull, 0.772
+2. Key drivers: rv_21 (0.1036), rsi_14 (67.3178), macd (0.0108), rv_5 (-0.3438), atr_14_pct (0.0084)
+3. Supporting evidence: The observed values of key features like rsi_14 at 67.3178 indicate a Bullish condition, while the negative values for rv_5 and macd suggest a Bullish bias. The recent (days 21-30) candles showing an upper price range aligns with typical Bull behavior. Additionally, the net sentiment score of -0.215 leans towards a Bullish market.
+4. Uncertainty note: None",,,,
+2024-06-13,Bull,"1. Predicted regime and confidence: Bull, 0.942
+2. Key drivers: rv_21 (0.088), rsi_14 (72.8415), obv_z (1.7292)
+3. Supporting evidence: The high observed value of rsi_14 (72.8415) suggests an overbought condition, which is characteristic of a Bull market. The positive observed value of obv_z (1.7292) indicates increasing buying pressure, aligning with Bull behavior. The negative observed value of sma_50_ratio (-0.0448) implies that the short-term moving average is below the long-term moving average, another Bull indicator. The net sentiment score of -0.332 also leans towards a Bullish market, as it is negative but not strongly so. The dominant chart region describes recent candle patterns within a lower price range, which is consistent with a Bull market where prices are consolidating at lower levels.
+4. Uncertainty note: None",,,,
+2024-07-02,Bull,"1. Predicted regime and confidence: Bull, 0.967
+2. Key drivers: rsi_14, obv_z, volume_z
+3. Supporting evidence: The high Relative Strength Index (RSI_14) value of 71.7417 indicates an overbought condition, which is characteristic of a Bull market. The Observed Value (OBV_Z) of 1.4765 suggests a positive momentum, aligning with Bullish expectations. Additionally, the Observed Value of -0.915 for Volume_Z points towards increased buying pressure, further supporting the Bullish regime. The Net Sentiment score of -0.061 also leans towards a Bullish bias, indicating overall optimism in the market.
+4. Uncertainty note: None",,,,
+2024-07-16,Bull,"1. Predicted regime and confidence: Bull, 0.964
+2. Key drivers: rv_21 (0.0702), rsi_14 (76.7722), obv_z (1.7383), atr_14_pct (0.0079)
+3. Supporting evidence: The observed values of key features like rsi_14 at 76.7722 indicate a Bullish condition, suggesting an uptrend. The positive observed value of obv_z (1.7383) further supports a Bullish bias. Additionally, the recent (days 21-30) candles being in the upper price range aligns with typical Bullish market behavior. The negative macd value (-0.0135) suggests a Bullish sentiment, reinforcing the overall Bullish outlook.
+4. Uncertainty note: None",,,,
+2024-07-19,Bull,"1. Predicted regime and confidence: Bull, 0.795
+2. Key drivers: rv_21, volume_z, macd, log_return, atr_14_pct
+3. Supporting evidence: The observed value of rv_21 is 0.0949, indicating a positive momentum which is characteristic of a Bull market. The observed value of volume_z is 0.9549, suggesting increased buying pressure, another Bull indicator. The observed value of macd is 0.0097, pointing towards a bullish divergence, further supporting the Bull prediction. The observed value of log_return is -0.0067, showing a slight negative return but still within the range of positive returns, consistent with a Bull market. Lastly, the observed value of atr_14_pct is 0.0093, indicating low volatility, which is also typical of a Bull market. The net sentiment score of -0.471 suggests a slightly negative overall market sentiment, but it is overshadowed by the Bull indicators. The dominant chart region shows recent candles in the upper price range, which is a Bullish pattern.
+4. Uncertainty note: None",,,,
+2024-07-23,Bull,"1. Predicted regime and confidence: Bull, 0.856
+2. Key drivers: rv_21, return_5d, volume_z
+3. Supporting evidence: The observed value of rv_21 is 0.1004, indicating an upward trend over the past 21 days. The observed value of return_5d is -0.0196, suggesting a slight downward movement over the last five days. The observed value of volume_z is -1.093, pointing towards a decrease in trading volume, which is often associated with a Bull market. The net sentiment score of -0.01 also leans towards a Bullish market. The dominant chart region shows recent candles in the upper price range, which is characteristic of a Bull market.
+4. Uncertainty note: None",,,,
+2024-08-08,Bear,"1. Predicted regime and confidence: Bear, 0.643
+2. Key drivers: rv_21, sma_20_ratio, return_21d, macd
+3. Supporting evidence: The negative observed values of rv_21 (-0.2089), sma_20_ratio (-0.0245), return_21d (-0.0546), and macd (-0.0107) indicate a bearish trend. Additionally, the recent (days 21-30) candles showing a lower price range aligns with typical Bear market characteristics.
+4. Uncertainty note: Uncertainty_flag is true, indicating confidence is below 0.65.",,,,
+2024-08-09,Bear,"1. Predicted regime and confidence: Bear, 0.627
+2. Key drivers: rv_21, return_21d, sma_20_ratio
+3. Supporting evidence: The key drivers rv_21, return_21d, and sma_20_ratio all have negative observed values, indicating a bearish trend. The net sentiment score of -0.219 also aligns with a bearish market sentiment. Additionally, the dominant chart region suggests early window candles with a lower price range, which is characteristic of a bearish market phase.
+4. Uncertainty note: Uncertainty_flag is true, hence confidence is below 0.65.",,,,
+2024-08-15,Bear,"1. Predicted regime and confidence: Bear, 0.624
+2. Key drivers: rv_21, atr_14_pct, close_open_gap, return_21d
+3. Supporting evidence: The key drivers (rv_21, atr_14_pct, close_open_gap, return_21d) have observed values far from their typical values, indicating a Bear market. The net sentiment score of -0.027 also aligns with typical Bear market conditions, suggesting pessimism among traders. Additionally, the dominant chart region shows recent candles with a lower price range, which is characteristic of a Bear market.
+4. Uncertainty note: Uncertainty_flag is true, indicating confidence is below 0.65.",,,,
+2024-08-16,Bear,"1. Predicted regime and confidence: Bear, 0.729
+2. Key drivers: rv_21, sma_20_ratio, macd_hist
+3. Supporting evidence: The key driver features rv_21 and macd_hist have positive observed values, indicating recent price increases and a bullish momentum indicator respectively. The negative observed value of sma_20_ratio suggests a divergence between short-term and long-term moving averages, which is a common Bear characteristic. Additionally, the net sentiment score of -0.134 indicates a bearish overall market sentiment. The dominant chart region shows a recent lower price range, which aligns with typical Bear market behavior.
+4. Uncertainty note: None",,,,
+2024-08-21,Bear,"1. Predicted regime and confidence: Bear, 0.685
+2. Key drivers: rv_21 (0.2168), sma_20_ratio (0.0359), atr_14_pct (0.014), sma_10_ratio (0.0251)
+3. Supporting evidence: The observed values of the key features indicate a bearish market sentiment. The rv_21 value of 0.2168 suggests a recent decline, while the negative shap values for sma_20_ratio (-0.7135) and sma_10_ratio (0.2692) point towards underperformance relative to longer-term moving averages. The atr_14_pct of 0.014 indicates low volatility, which is consistent with a bear market where price movements are generally subdued. The net sentiment score of -0.104 further supports the bearish regime, as it reflects a negative overall market sentiment. Additionally, the dominant chart region described as ""recent (days 21-30) candles, upper price range"" aligns with typical bear market patterns, where prices tend to be higher but with limited upward momentum.
+4. Uncertainty note: None",,,,
+2024-08-28,HighVol,"1. Predicted regime and confidence: HighVol, 0.823
+2. Key drivers: rv_21, bb_width, sma_20_ratio, return_21d, macd_hist
+3. Supporting evidence: The high value of rv_21 (0.2011) suggests high volatility, while the negative shap value for bb_width (-0.3374) indicates that wider band widths are less likely in this regime. The positive shap value for sma_20_ratio (0.0242) implies that a higher ratio between the 20-day simple moving average and the current price is more probable. The low return_21d (0.0301) suggests recent underperformance, which is consistent with high volatility. Lastly, the positive shap value for macd_hist (0.0034) points towards a bullish signal, but its small magnitude does not significantly impact the overall regime classification. The net sentiment score of -0.154 also aligns with the HighVol regime, indicating a bearish outlook despite some bullish signals. The dominant chart region showing recent candles in the upper price range further supports the presence of high volatility.
+4. Uncertainty note: None",,,,
+2024-09-04,HighVol,"1. Predicted regime and confidence: HighVol, 0.886
+2. Key drivers: rv_21, bb_width, return_21d, rsi_14, sma_10_ratio
+3. Supporting evidence: The high value of rv_21 (0.1547) suggests high volatility, while the negative shap value for bb_width (-0.2023) indicates that wider band widths are less likely in this regime. The low positive return_21d (0.0649) and high rsi_14 (49.6434) suggest a bullish market, but these are counterbalanced by the negative shap value for sma_10_ratio (-0.0135), indicating that the recent trend is not strong. The dominant chart region being described as having recent (days 21-30) candles in the upper price range aligns with the HighVol regime, where prices tend to fluctuate widely.
+4. Uncertainty note: None",,,,
+2024-09-06,HighVol,"1. Predicted regime and confidence: HighVol, 0.82
+2. Key drivers: rv_21, volume_z, rsi_14, log_return
+3. Supporting evidence: The observed value of rv_21 is 0.1655, indicating high volatility. The observed value of volume_z is 0.9348, suggesting increased trading activity. The observed value of rsi_14 is 41.1897, which is within the overbought zone, consistent with high volatility. The observed value of log_return is -0.017, showing a slight negative trend, which aligns with the HighVol regime. The dominant chart region describes early window candles with a lower price range, which is characteristic of HighVol conditions where price fluctuations are more pronounced.
+4. Uncertainty note: None",,,,
+2024-09-10,HighVol,"1. Predicted regime and confidence: HighVol, 0.93
+2. Key drivers: rv_21, rsi_14, volume_z, sma_20_ratio, macd_hist
+3. Supporting evidence: The key driver features (rv_21, rsi_14, volume_z, sma_20_ratio, macd_hist) have observed values that align with high volatility conditions. For instance, rv_21 has an observed value of 0.1512, which is relatively low, indicating less extreme price movements. Conversely, rsi_14's observed value of 48.8833 suggests a moderate level of overbought or oversold condition, while volume_z at -0.8084 indicates a significant deviation from the norm, possibly signaling increased trading activity. The negative values for sma_20_ratio (-0.0095) and macd_hist (-0.003) further support the notion of high volatility by suggesting divergence from the moving average and histogram, respectively. Additionally, the net sentiment score of -0.393 points towards a bearish outlook, consistent with high volatility periods where both bulls and bears are cautious. Lastly, the dominant chart region described as ""early-window (days 1-10) candles, upper price range"" also aligns with high volatility, as it implies rapid price changes and heightened market activity.
+4. Uncertainty note: None",,,,
+2024-09-18,HighVol,"1. Predicted regime and confidence: HighVol, 0.934
+2. Key drivers: rv_21, obv_z, macd_hist, atr_14_pct
+3. Supporting evidence: The high value of rv_21 (0.1331) suggests high volatility, while obv_z (1.6277) indicates strong buying pressure. The low value of macd_hist (0.0013) implies no significant momentum, and atr_14_pct (0.0131) shows relatively low average true range, all pointing towards a HighVol market. Additionally, the recent (days 21-30) candles showing a lower price range aligns with the HighVol regime characterized by wide price fluctuations.
+4. Uncertainty note: None",,,,
+2024-10-03,Bull,"1. Predicted regime and confidence: Bull, 0.56
+2. Key drivers: rv_21, macd, bb_pct_b, obv_z, atr_14_pct
+3. Supporting evidence: The observed value of rv_21 is 0.1136, which is positive and suggests an upward trend. The observed value of macd is 0.0091, indicating a slight bullish bias. The observed value of bb_pct_b is 0.6265, suggesting that prices are trading above the middle band of the Bollinger Bands, which is typically associated with a Bullish market. The observed value of obv_z is 1.2348, showing strong buying pressure. The observed value of atr_14_pct is 0.0107, indicating low volatility, another characteristic of a Bull market. The net sentiment score of -0.466 also leans towards a Bullish market, as negative scores generally indicate bearishness. The dominant chart region, recent (days 21-30) candles in the upper price range, further supports the Bullish classification.
+4. Uncertainty note: True",,,,
+2024-10-04,Bull,"1. Predicted regime and confidence: Bull, 0.597
+2. Key drivers: rv_21 (0.1154), rsi_14 (62.7679), sma_50_ratio (0.0366)
+3. Supporting evidence: The observed values of the key features indicate a Bullish market. The rv_21 value of 0.1154 suggests a positive momentum, while the rsi_14 at 62.7679 is near the middle of the overbought/oversold range, which is typically associated with a Bull market. Additionally, the sma_50_ratio of 0.0366 indicates that the short-term moving average (SMA) is slightly above the long-term moving average (SMA_50), another characteristic of a Bull market. The net sentiment score of -0.108 also leans towards a Bullish market, suggesting that overall market sentiment is positive despite some minor negative indicators. The dominant chart region described as ""recent (days 21-30) candles, upper price range"" further supports a Bullish interpretation, as it implies that recent price action has been in an upward trend.
+4. Uncertainty note: Uncertainty_flag is true, indicating that the confidence level is below 0.65.",,,,
+2024-10-11,Bull,"1. Predicted regime and confidence: Bull, 0.898
+2. Key drivers: rv_21 (0.096), rsi_14 (65.3212), sma_50_ratio (0.0426), obv_z (1.4231)
+3. Supporting evidence: The observed values of key features like rsi_14 at 65.3212 indicate a Bullish condition, while the negative shap value for macd (-0.2419) suggests it's not contributing negatively. The net sentiment score of 0.143 is positive, aligning with Bullish expectations. The dominant chart region being ""recent (days 21-30) candles, upper price range"" also supports a Bullish market regime.
+4. Uncertainty note: None",,,,
+2024-10-18,Bull,"1. Predicted regime and confidence: Bull, 0.931
+2. Key drivers: rsi_14 (66.2417), obv_z (1.6641)
+3. Supporting evidence: The observed RSI value of 66.2417 suggests an overbought condition, which is characteristic of a Bull market. Additionally, the OBV_Z value of 1.6641 indicates positive momentum, further supporting the Bullish prediction. The net sentiment score of 0.01 is slightly positive, aligning with the Bullish regime. The dominant chart region shows a recent lower price range, which is consistent with a Bull market where prices tend to move upwards.
+4. Uncertainty note: None",,,,
+2024-10-21,Bull,"1. Predicted regime and confidence: Bull, 0.927
+2. Key drivers: rsi_14, obv_z
+3. Supporting evidence: The high Relative Strength Index (RSI_14) of 64.6799 indicates strong buying pressure, while the Observed Volume (OBV_Z) of 1.4094 suggests increasing volume, both characteristic of a Bull market. Additionally, the recent (days 21-30) candles showing a lower price range aligns with Bullish patterns.
+4. Uncertainty note: None",,,,
+2024-11-08,HighVol,"1. Predicted regime and confidence: HighVol, 0.939
+2. Key drivers: rv_21 (0.1367), rsi_14 (69.2284), sma_50_ratio (0.0479), obv_z (1.8277), atr_14_pct (0.0103)
+3. Supporting evidence: The high observed value of rv_21 (0.1367) suggests high volatility, which aligns with the predicted HighVol regime. The RSI_14 value of 69.2284 indicates overbought conditions, consistent with HighVol behavior. The SMA_50_ratio of 0.0479 shows a significant divergence from the 50-period moving average, another characteristic of HighVol regimes. The OBV_Z value of 1.8277 points towards strong buying pressure, further supporting the HighVol classification. The ATR_14_pct of 0.0103 implies low volatility, but considering the other indicators, it does not contradict the HighVol classification. The negative net sentiment (-0.424) suggests overall bearish sentiment, which is common in HighVol markets where prices can fluctuate widely. The dominant chart region indicating recent candles in the upper price range also supports the HighVol classification.
+4. Uncertainty note: None",,,,
+2024-11-14,HighVol,"1. Predicted regime and confidence: HighVol, 0.937
+2. Key drivers: rv_21, obv_z
+3. Supporting evidence: The high value of rv_21 (0.133) suggests high volatility, while obv_z (1.6214) indicates strong buying pressure, both aligning with typical HighVol characteristics. Additionally, the recent (days 21-30) candles showing an upper price range supports the HighVol regime, as it implies significant upward movement.
+4. Uncertainty note: None",,,,
+2024-12-13,Bull,"1. Predicted regime and confidence: Bull, 0.943
+2. Key drivers: rv_21, obv_z
+3. Supporting evidence: The observed value of rv_21 is 0.0814, which is relatively high compared to its typical value, indicating an upward trend. The observed value of obv_z is 1.4146, suggesting strong buying pressure. These features align with typical Bull market characteristics such as positive momentum and strong buying interest. Additionally, the net sentiment score of -0.328 suggests a slight negative sentiment but still leans towards Bullish, supporting the Bull regime. The dominant chart region shows recent candles within a lower price range, which is consistent with a Bull market where prices tend to be more stable at lower levels.
+4. Uncertainty note: None",,,,
+2024-12-17,Bull,"1. Predicted regime and confidence: Bull, 0.946
+2. Key drivers: rv_21, volume_z, log_return
+3. Supporting evidence: The observed value of rv_21 is 0.0629, which is positive indicating an upward trend. The observed value of volume_z is 1.0443, suggesting increased buying pressure. The observed value of log_return is -0.0041, showing a slight downward movement but still within the context of a Bullish regime. The net sentiment score of -0.033 suggests a slightly negative sentiment overall, but it is close to zero and does not contradict the Bullish prediction. The dominant chart region indicates recent candles with a lower price range, which is consistent with a Bullish market where prices tend to be more stable at lower levels.
+4. Uncertainty note: None",,,,
+2025-01-27,HighVol,"1. Predicted regime and confidence: HighVol, 0.931
+2. Key drivers: rv_21, close_open_gap, rsi_14, volume_z, log_return
+3. Supporting evidence: The high value of rv_21 (0.1475) suggests high volatility, which aligns with the predicted regime. The negative observed value for close_open_gap (-0.0216) indicates that the closing price is lower than the opening price, consistent with high volatility. An RSI (Relative Strength Index) of 53.2675 (observed) is considered neutral but could indicate potential for increased volatility. The volume_z (observed 1.263) being positive suggests an increase in trading volume, which is often seen during high-volatility periods. Lastly, the negative log_return (-0.0142) implies that prices have moved downward, further supporting the notion of high volatility. The dominant chart region described as ""recent (days 21-30) candles, upper price range"" also points towards high volatility, as it suggests rapid price movements within a recent timeframe.
+4. Uncertainty note: None",,,,
+2025-02-27,HighVol,"1. Predicted regime and confidence: HighVol, 0.542
+2. Key drivers: rsi_14 (34.4254), volume_z (1.413), return_21d (-0.0322), sma_20_ratio (-0.0295), return_5d (-0.0415)
+3. Supporting evidence: The observed values of the key features align with typical HighVol characteristics. The RSI (Relative Strength Index) at 34.4254 suggests a moderate level of volatility, while the positive 21-day return (-0.0322) indicates some upward momentum. The volume_z value of 1.413 points towards increased trading activity, which is common during HighVol regimes. The negative SMA_20_ratio (-0.0295) and negative 5-day return (-0.0415) further support the notion of high volatility, as these metrics often diverge during periods of heightened market turbulence. Additionally, the dominant chart region described as ""recent (days 21-30) candles, upper price range"" also supports the HighVol classification, as such a description typically indicates an environment where prices are fluctuating significantly.
+4. Uncertainty note: Uncertainty_flag is true, indicating that the confidence in the predicted regime is below 0.65.",,,,
+2025-03-20,HighVol,"1. Predicted regime and confidence: HighVol, 0.697
+2. Key drivers: return_21d (-0.0774), rv_21 (0.2008), macd_signal (-0.0164)
+3. Supporting evidence: The key driver features indicate a Bullish sentiment (return_21d and rv_21) and a Bearish sentiment (macd_signal). These contradict each other, suggesting volatility. The negative net sentiment (-0.452) aligns with HighVol regimes where sentiment is generally mixed but with a bias towards volatility. The dominant chart region shows recent candles in the upper price range, which is characteristic of HighVol conditions where prices are more volatile and trending.
+4. Uncertainty note: None",,,,
+2025-03-31,Bear,"1. Predicted regime and confidence: Bear, 0.676
+2. Key drivers: macd, obv_z
+3. Supporting evidence: The observed value of macd (-0.0112) indicates a negative trend, which is characteristic of a Bear market. The observed value of obv_z (-0.8873) suggests a negative sentiment, further supporting the Bear prediction. The dominant chart region describes recent candles with a lower price range, which is consistent with a Bear market where prices tend to be lower.
+4. Uncertainty note: None",,,,
+2025-04-04,Bear,"1. Predicted regime and confidence: Bear, 0.993
+2. Key drivers: rv_21, log_return, sma_20_ratio, atr_14_pct, macd
+3. Supporting evidence: The key drivers show a negative impact on the market, with rv_21 having a positive but significant shap value indicating a bearish influence, while log_return, sma_20_ratio, and macd have negative shap values suggesting a bearish trend. The net sentiment score of -0.372 further supports a bearish outlook. Additionally, the dominant chart region indicates a recent lower price range, which is characteristic of a bear market.
+4. Uncertainty note: None",,,,
+2025-04-07,Bear,"1. Predicted regime and confidence: Bear, 1.0
+2. Key drivers: rv_21, atr_14_pct, high_low_range, sma_50_ratio
+3. Supporting evidence: The key driver features indicate a recent lower price range (dominant chart region), which aligns with typical Bear market characteristics. The negative observed values for sma_50_ratio and the low observed value of high_low_range further support this. Additionally, the negative net sentiment score (-0.264) suggests pessimism among traders, consistent with a Bear market.
+4. Uncertainty note: None",,,,
+2025-04-14,Bear,"1. Predicted regime and confidence: Bear, 1.0
+2. Key drivers: rv_21, macd_signal, sma_50_ratio
+3. Supporting evidence: The key driver features, rv_21 and sma_50_ratio, have negative observed values indicating a downward trend. The macd_signal also has a negative value, suggesting a bearish signal. The net sentiment score of -0.18 further supports a bearish market, as it indicates an overall negative sentiment. Additionally, the dominant chart region shows recent candles in the upper price range, which is characteristic of a bear market where prices tend to be higher than usual.
+4. Uncertainty note: None",,,,
+2025-04-22,Bear,"1. Predicted regime and confidence: Bear, 1.0
+2. Key drivers: rv_21, atr_14_pct, sma_20_ratio, macd_signal, return_21d
+3. Supporting evidence: The key driver features show a negative observed value for rv_21, indicating a bearish trend. The atr_14_pct also shows a negative value, suggesting increased volatility which is often associated with bear markets. The sma_20_ratio and macd_signal both have negative values, pointing towards a downtrend. The return_21d has a particularly large negative value (-0.0651), reflecting a significant decline over the past 21 days. These indicators align with typical Bear market characteristics, such as declining prices and increased volatility.
+4. Uncertainty note: None",,,,
+2025-04-24,Bear,"1. Predicted regime and confidence: Bear, 1.0
+2. Key drivers: rv_21, macd_hist, macd_signal, high_low_range
+3. Supporting evidence: The key driver features indicate a negative trend, with rv_21 showing a significant positive value suggesting a higher than average return over the past 21 days, macd_hist showing a small but positive value indicating a bullish momentum, macd_signal showing a negative value suggesting a bearish signal, and high_low_range showing a slight positive value implying a wider price range which can be indicative of volatility. The net sentiment score of -0.191 further supports a bearish outlook, and the dominant chart region describing recent candles with a lower price range aligns with typical Bear market characteristics.
+4. Uncertainty note: None",,,,
+2025-04-25,Bear,"1. Predicted regime and confidence: Bear, 1.0
+2. Key drivers: rv_21, atr_14_pct, macd_hist, sma_20_ratio
+3. Supporting evidence: The key driver features indicate a negative trend, with rv_21 showing a high positive value of 0.5238, suggesting a recent increase in volatility. The atr_14_pct has an observed value of 0.0298, indicating low average true range, which is consistent with a bearish market. The macd_hist at 0.0068 shows a slight positive value, but the macd_signal at -0.0184 suggests a negative signal, further supporting the bearish regime. The sma_20_ratio at 0.0299 indicates a downward movement relative to the 20-day simple moving average, aligning with typical bearish behavior. Additionally, the net sentiment score of -0.262 is negative, reinforcing the bearish outlook. The dominant chart region, showing a lower price range over the past 21 to 30 days, also points towards a bearish market.
+4. Uncertainty note: None",,,,
+2025-05-01,Bear,"1. Predicted regime and confidence: Bear, 1.0
+2. Key drivers: rv_21, atr_14_pct, macd_hist, sma_20_ratio, macd_signal
+3. Supporting evidence: The key driver features indicate a negative sentiment towards the market, with rv_21 having an observed value of 0.5197, suggesting a bullish bias which contradicts the predicted regime. The atr_14_pct has an observed value of 0.0265, indicating low volatility, another characteristic of a bearish market. The macd_hist has an observed value of 0.0089, showing a slight positive divergence, which is typically associated with a bearish market. The sma_20_ratio has an observed value of 0.0467, pointing towards a bearish trend. Lastly, the macd_signal has an observed value of -0.0097, further supporting the bearish prediction. The net sentiment score of -0.424 also aligns with typical Bear market conditions. The dominant chart region shows recent candles in the upper price range, which is often indicative of a bearish market.
+4. Uncertainty note: None",,,,
+2025-05-05,Bear,"1. Predicted regime and confidence: Bear, 1.0
+2. Key drivers: rv_21 (0.4891), atr_14_pct (0.0244), sma_20_ratio (0.0475), macd_hist (0.0092), macd_signal (-0.0049)
+3. Supporting evidence: The negative observed value of sma_20_ratio (0.0475) suggests a divergence between short-term and long-term moving averages, which is a typical Bear characteristic. The low observed value of atr_14_pct (0.0244) indicates lower volatility, aligning with a Bear market where prices move less erratically. The positive observed value of rv_21 (0.4891) might suggest a recent upward trend, but the overall net sentiment score of -0.339 points towards a Bear market. The dominant chart region described as ""recent (days 21-30) candles, upper price range"" also supports a Bear market, as it implies a continuation of higher prices, which is contrary to typical Bear behavior.
+4. Uncertainty note: None",,,,
+2025-05-09,Bear,"1. Predicted regime and confidence: Bear, 0.985
+2. Key drivers: rv_21 (0.2592), atr_14_pct (0.0213), sma_20_ratio (0.0322), macd_hist (0.0059), bb_width (0.1153)
+3. Supporting evidence: The negative net sentiment (-0.384) suggests a bearish market sentiment. The recent (days 21-30) candles showing an upper price range aligns with typical Bear market characteristics, where prices tend to be higher than usual. The observed values of key features like rv_21, atr_14_pct, and bb_width also support a Bear regime, indicating lower volatility and wider price ranges.
+4. Uncertainty note: None",,,,
+2025-05-14,Bear,"1. Predicted regime and confidence: Bear, 0.833
+2. Key drivers: rv_21 (0.216), sma_20_ratio (0.0605), atr_14_pct (0.0195), bb_width (0.1475), sma_50_ratio (0.0622)
+3. Supporting evidence: The key drivers indicate a bearish market trend, with rv_21 showing a positive value suggesting recent price movements may be higher than expected, while other features like sma_20_ratio, atr_14_pct, bb_width, and sma_50_ratio show negative values, indicating lower prices and wider price ranges. The net sentiment score of -0.286 further supports a bearish outlook. Additionally, the dominant chart region suggests recent candle patterns and higher price ranges, which are typically associated with bearish conditions. 
+4. Uncertainty note: None",,,,
+2025-05-15,Bear,"1. Predicted regime and confidence: Bear, 0.805
+2. Key drivers: rv_21 (0.2146), sma_20_ratio (0.0595), atr_14_pct (0.0187), bb_width (0.1495), sma_50_ratio (0.067)
+3. Supporting evidence: The key drivers indicate a bearish trend with negative values for sma_20_ratio and atr_14_pct, suggesting lower prices and reduced volatility respectively. The recent chart region shows a lower price range, which aligns with typical Bear market characteristics. Additionally, the negative net sentiment score (-0.216) further supports the prediction of a Bear market.
+4. Uncertainty note: None",,,,
+2025-05-28,HighVol,"1. Predicted regime and confidence: HighVol, 0.688
+2. Key drivers: rv_21, bb_width, macd_signal, rv_5, atr_14_pct
+3. Supporting evidence: The key driver features rv_21 and bb_width have negative shap values, indicating they contribute to the HighVol regime. The observed value of rv_21 is 0.1683, which is relatively low compared to its positive shap value, suggesting it's contributing to the HighVol regime. The negative shap value for bb_width (-0.2791) further supports this. The macd_signal has a negative shap value (-0.1945), aligning with the HighVol regime. The rv_5 feature also has a negative shap value (-0.183), reinforcing the HighVol classification. The atr_14_pct feature has a negative shap value (-0.1288), consistent with HighVol conditions. The net sentiment score of -0.24 indicates a bearish sentiment, which is common in HighVol regimes. The dominant chart region describes recent candle patterns within a lower price range, which is characteristic of HighVol environments where volatility is high and prices fluctuate significantly.
+4. Uncertainty note: None",,,,
+2025-06-17,HighVol,"1. Predicted regime and confidence: HighVol, 0.925
+2. Key drivers: rv_21, macd_signal, sma_50_ratio, volume_z
+3. Supporting evidence: The high value of rv_21 (0.1309) suggests high volatility, while the negative shap value of macd_signal (-0.0144) indicates it's contributing negatively to the regime prediction. The positive shap value of sma_50_ratio (0.0511) also supports the regime prediction. The negative shap value of volume_z (-0.044) further aligns with the HighVol regime, as low volume can be indicative of high volatility. The net sentiment score of -0.04 and the description of the dominant chart region as ""recent (days 21-30) candles, lower price range"" both point towards a HighVol market.
+4. Uncertainty note: None",,,,

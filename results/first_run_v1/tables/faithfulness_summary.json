@@ -1,0 +1,6 @@
+{
+  "faithfulness_first_attempt": 1.0,
+  "faithfulness_final": 1.0,
+  "mean_attempts": 1.0,
+  "backend": "template"
+}

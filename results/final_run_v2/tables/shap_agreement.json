@@ -1,0 +1,19 @@
+{
+  "spearman_rho": 0.23458646616541348,
+  "p_value": 0.3194764651496698,
+  "top5_overlap": 2,
+  "top5_gemxai": [
+    "rv_21",
+    "atr_14_pct",
+    "rsi_14",
+    "sma_20_ratio",
+    "macd"
+  ],
+  "top5_xgboost": [
+    "rv_21",
+    "atr_14_pct",
+    "return_21d",
+    "bb_width",
+    "high_low_range"
+  ]
+}

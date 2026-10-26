@@ -1,0 +1,15 @@
+{
+  "lr": 0.0024611689381084175,
+  "dropout": 0.21186111716536166,
+  "modality_dropout": 0.016144358356256553,
+  "optuna_trials": 0,
+  "seeds": 1,
+  "epochs": 40,
+  "patience": 8,
+  "batch_size": 64,
+  "news_csv": "cache/daily_sentiment.csv",
+  "model_train_end": "2021-12-31",
+  "val_start": "2022-01-01",
+  "val_end": "2023-12-31",
+  "pretrained_resnet": true
+}

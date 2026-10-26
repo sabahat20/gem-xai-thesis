@@ -1,0 +1,4 @@
+regime,mean_pos,mean_neg,net_sentiment,sentiment_std
+Bear,0.09004,0.09026,0.09712,0.10829
+Bull,0.03611,0.04655,0.04028,0.03519
+HighVol,0.00493,0.00564,0.00514,0.00376

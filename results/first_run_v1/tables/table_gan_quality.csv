@@ -1,0 +1,10 @@
+,Bear
+n_real,699
+n_synthetic,195
+lambda_gp,20.0
+mmd_real_vs_synth,0.007766306400299072
+mmd_real_half_vs_half,0.03123253583908081
+disc_acc_logreg,0.804720942140297
+disc_acc_gboost,0.8576600102406555
+passes_disc_test,False
+used_for_training,False
